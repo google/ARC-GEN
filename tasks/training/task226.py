@@ -25,8 +25,12 @@ def generate(wides=None, talls=None):
     talls: a list of spacing heights
   """
   if wides is None:
-    wides = [common.randint(1, 4) for _ in range(2 * common.randint(1, 2) + 1)]
-    talls = [common.randint(1, 3) for _ in range(2 * common.randint(1, 2) + 1)]
+    while True:
+      wides = [common.randint(1, 4) for _ in range(2 * common.randint(1, 2) + 1)]
+      talls = [common.randint(1, 3) for _ in range(2 * common.randint(1, 2) + 1)]
+      if sum(wides) + len(wides) - 1 != 10: continue
+      if sum(talls) + len(talls) - 1 != 10: continue
+      break
 
   width, height = sum(wides) + len(wides) - 1, sum(talls) + len(talls) - 1
   grid, output = common.grids(width, height)
