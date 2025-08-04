@@ -35,11 +35,7 @@ def generate(rows=None, cols=None, wides=None, talls=None, colors=None,
       tall0 = common.randint(3, 7)
       tall1 = common.randint(3, size - tall0)
       wide0, wide1 = common.randint(3, size), common.randint(3, size)
-      if wide0 * tall0 == wide1 * tall1 or wide0 + tall0 == wide1 + tall1:
-        continue  # Equal area or permimeter, keep searching
-      if (wide0 * tall0 < wide1 * tall1) != (wide0 + tall0 < wide1 + tall1):
-        continue  # Area is smaller but perimeter is larger, keep searching
-      break
+      if wide0 * tall0 != wide1 * tall1: break
     wides, talls = [wide0, wide1], [tall0, tall1]
     rows = [0, tall0 + (0 if tall0 + tall1 == size else 1)]  # maybe add space
     cols = [common.randint(0, size - wide0), common.randint(0, size - wide1)]
