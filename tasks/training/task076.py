@@ -38,8 +38,10 @@ def generate(width=None, height=None, rows=None, cols=None, colors=None,
     if sprite_type == 1: wide, tall = 4, 2
     if sprite_type == 2: wide, tall = 5, 1
     # Choose the positions of the yellow pixels.
-    pixels, extra_pixels = common.sample(common.all_pixels(wide, tall), 5), []
-    colors, extra_colors = [4] * len(pixels), []
+    while True:
+      pixels = common.sample(common.all_pixels(wide, tall), 5)
+      if common.diagonally_connected(pixels): break
+    extra_pixels, colors, extra_colors = [], [4] * len(pixels), []
     # Choose the number of pixels of each other color.
     num_red, num_blue, num_green = 1, common.randint(1, 2), common.randint(1, 3)
     extra_colors += [common.red()] * num_red
