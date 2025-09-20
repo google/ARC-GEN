@@ -2,7 +2,7 @@
 <img src="misc/images/arc-gen-logo.jpg">
 </p>
 
-This repository contains the source code for *ARC-GEN: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus*.
+This repository contains the source code for *ARC-GEN*, a mimetic procedural benchmark generator for the Abstraction and Reasoning Corpus.
 
 ## Installation
 
