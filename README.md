@@ -48,3 +48,8 @@ https://www.kaggle.com/datasets/arcgen100k/the-arc-gen-100k-dataset
 <br><br>
 <img src="misc/images/arc-gen-gallery-faded.png">
 </p>
+
+## Other Resouces
+
+ * [RE-ARC: Reverse-Engineering the Abstraction and Reasoning Corpus](https://github.com/michaelhodel/re-arc) by Michael Hodel
+ * [Bootstrapping ARC: Synthetic Problem Generation for ARC Visual Reasoning Tasks](https://github.com/xu3kev/BARC) by Wen-Ding Li and others
