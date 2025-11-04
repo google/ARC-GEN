@@ -4,6 +4,8 @@
 
 This repository contains the source code for *ARC-GEN*, a mimetic procedural benchmark generator for the Abstraction and Reasoning Corpus.
 
+For a more in-depth description of this work, see the [corresponding paper on arxiv](https://arxiv.org/abs/2511.00162).
+
 ## Installation
 
 ```
@@ -48,6 +50,20 @@ https://www.kaggle.com/datasets/arcgen100k/the-arc-gen-100k-dataset
 <br><br>
 <img src="misc/images/arc-gen-gallery-faded.png">
 </p>
+
+## How to Cite?
+
+```
+@misc{Moffitt2025,
+  title={ARC-GEN: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus}, 
+  author={Michael D. Moffitt},
+  year={2025},
+  eprint={2511.00162},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2511.00162}, 
+}
+```
 
 ## Other Resouces
 
