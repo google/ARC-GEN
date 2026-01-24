@@ -55,7 +55,7 @@ https://www.kaggle.com/datasets/arcgen100k/the-arc-gen-100k-dataset
 
 ```
 @misc{Moffitt2025,
-  title={ARC-GEN: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus}, 
+  title={{ARC-GEN: A Mimetic Procedural Benchmark Generator for the Abstraction and Reasoning Corpus}}, 
   author={Michael D. Moffitt},
   year={2025},
   eprint={2511.00162},
