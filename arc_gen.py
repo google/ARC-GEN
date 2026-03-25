@@ -25,8 +25,8 @@ ARC_AGI_DATA_DIR = "external/ARC-AGI/data/training/"
 def validate_generators():
   """Validates all generators against their expected outputs."""
   passing, failing = 0, []
-  for _, task_info in task_list.task_list().items():
-    task_id, _, validator = task_info
+  for task_id, task_info in task_list.task_list().items():
+    _, validator = task_info
     actual_result = validator()
     with open(ARC_AGI_DATA_DIR + task_id + ".json", "r") as f:
       expected_result = json.load(f)
@@ -40,19 +40,19 @@ def validate_generators():
   if failing: print("Failing generators: " + str(failing))
 
 
-def generate_benchmarks(task_num, num_examples):
+def generate_benchmarks(task_id, num_examples):
   """Creates a benchmark suite for a given task."""
-  task_info = task_list.task_list()[task_num]
-  _, generator, _ = task_info
+  task_info = task_list.task_list()[task_id]
+  generator, _ = task_info
   examples = []
   for example_id in range(num_examples):
-    random.seed(task_num + example_id)
+    random.seed(2025 + example_id)
     examples.append(generator())
   print(examples)
 
 
 def main(argv) -> None:
-  if argv[1] == "generate": generate_benchmarks(int(argv[2]), int(argv[3]))
+  if argv[1] == "generate": generate_benchmarks(argv[2], int(argv[3]))
   if argv[1] == "validate": validate_generators()
 
 

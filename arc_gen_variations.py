@@ -19,7 +19,7 @@ import task_list
 
 
 if __name__ == "__main__":
-  _, generator, _ = task_list.task_list().get(125)
+  generator, _ = task_list.task_list().get("543a7ed5")
   examples = []
   # Two examples of a "large" variation on Task #125.
   examples.extend([generator(boxes=8, size=28) for _ in range(2)])

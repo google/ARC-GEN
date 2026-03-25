@@ -14,809 +14,808 @@
 
 """The task list for ARC-GEN."""
 
-from tasks.training import task001
-from tasks.training import task002
-from tasks.training import task003
-from tasks.training import task004
-from tasks.training import task005
-from tasks.training import task006
-from tasks.training import task007
-from tasks.training import task008
-from tasks.training import task009
-from tasks.training import task010
-from tasks.training import task011
-from tasks.training import task012
-from tasks.training import task013
-from tasks.training import task014
-from tasks.training import task015
-from tasks.training import task016
-from tasks.training import task017
-from tasks.training import task018
-from tasks.training import task019
-from tasks.training import task020
-from tasks.training import task021
-from tasks.training import task022
-from tasks.training import task023
-from tasks.training import task024
-from tasks.training import task025
-from tasks.training import task026
-from tasks.training import task027
-from tasks.training import task028
-from tasks.training import task029
-from tasks.training import task030
-from tasks.training import task031
-from tasks.training import task032
-from tasks.training import task033
-from tasks.training import task034
-from tasks.training import task035
-from tasks.training import task036
-from tasks.training import task037
-from tasks.training import task038
-from tasks.training import task039
-from tasks.training import task040
-from tasks.training import task041
-from tasks.training import task042
-from tasks.training import task043
-from tasks.training import task044
-from tasks.training import task045
-from tasks.training import task046
-from tasks.training import task047
-from tasks.training import task048
-from tasks.training import task049
-from tasks.training import task050
-from tasks.training import task051
-from tasks.training import task052
-from tasks.training import task053
-from tasks.training import task054
-from tasks.training import task055
-from tasks.training import task056
-from tasks.training import task057
-from tasks.training import task058
-from tasks.training import task059
-from tasks.training import task060
-from tasks.training import task061
-from tasks.training import task062
-from tasks.training import task063
-from tasks.training import task064
-from tasks.training import task065
-from tasks.training import task066
-from tasks.training import task067
-from tasks.training import task068
-from tasks.training import task069
-from tasks.training import task070
-from tasks.training import task071
-from tasks.training import task072
-from tasks.training import task073
-from tasks.training import task074
-from tasks.training import task075
-from tasks.training import task076
-from tasks.training import task077
-from tasks.training import task078
-from tasks.training import task079
-from tasks.training import task080
-from tasks.training import task081
-from tasks.training import task082
-from tasks.training import task083
-from tasks.training import task084
-from tasks.training import task085
-from tasks.training import task086
-from tasks.training import task087
-from tasks.training import task088
-from tasks.training import task089
-from tasks.training import task090
-from tasks.training import task091
-from tasks.training import task092
-from tasks.training import task093
-from tasks.training import task094
-from tasks.training import task095
-from tasks.training import task096
-from tasks.training import task097
-from tasks.training import task098
-from tasks.training import task099
-from tasks.training import task100
-from tasks.training import task101
-from tasks.training import task102
-from tasks.training import task103
-from tasks.training import task104
-from tasks.training import task105
-from tasks.training import task106
-from tasks.training import task107
-from tasks.training import task108
-from tasks.training import task109
-from tasks.training import task110
-from tasks.training import task111
-from tasks.training import task112
-from tasks.training import task113
-from tasks.training import task114
-from tasks.training import task115
-from tasks.training import task116
-from tasks.training import task117
-from tasks.training import task118
-from tasks.training import task119
-from tasks.training import task120
-from tasks.training import task121
-from tasks.training import task122
-from tasks.training import task123
-from tasks.training import task124
-from tasks.training import task125
-from tasks.training import task126
-from tasks.training import task127
-from tasks.training import task128
-from tasks.training import task129
-from tasks.training import task130
-from tasks.training import task131
-from tasks.training import task132
-from tasks.training import task133
-from tasks.training import task134
-from tasks.training import task135
-from tasks.training import task136
-from tasks.training import task137
-from tasks.training import task138
-from tasks.training import task139
-from tasks.training import task140
-from tasks.training import task141
-from tasks.training import task142
-from tasks.training import task143
-from tasks.training import task144
-from tasks.training import task145
-from tasks.training import task146
-from tasks.training import task147
-from tasks.training import task148
-from tasks.training import task149
-from tasks.training import task150
-from tasks.training import task151
-from tasks.training import task152
-from tasks.training import task153
-from tasks.training import task154
-from tasks.training import task155
-from tasks.training import task156
-from tasks.training import task157
-from tasks.training import task158
-from tasks.training import task159
-from tasks.training import task160
-from tasks.training import task161
-from tasks.training import task162
-from tasks.training import task163
-from tasks.training import task164
-from tasks.training import task165
-from tasks.training import task166
-from tasks.training import task167
-from tasks.training import task168
-from tasks.training import task169
-from tasks.training import task170
-from tasks.training import task171
-from tasks.training import task172
-from tasks.training import task173
-from tasks.training import task174
-from tasks.training import task175
-from tasks.training import task176
-from tasks.training import task177
-from tasks.training import task178
-from tasks.training import task179
-from tasks.training import task180
-from tasks.training import task181
-from tasks.training import task182
-from tasks.training import task183
-from tasks.training import task184
-from tasks.training import task185
-from tasks.training import task186
-from tasks.training import task187
-from tasks.training import task188
-from tasks.training import task189
-from tasks.training import task190
-from tasks.training import task191
-from tasks.training import task192
-from tasks.training import task193
-from tasks.training import task194
-from tasks.training import task195
-from tasks.training import task196
-from tasks.training import task197
-from tasks.training import task198
-from tasks.training import task199
-from tasks.training import task200
-from tasks.training import task201
-from tasks.training import task202
-from tasks.training import task203
-from tasks.training import task204
-from tasks.training import task205
-from tasks.training import task206
-from tasks.training import task207
-from tasks.training import task208
-from tasks.training import task209
-from tasks.training import task210
-from tasks.training import task211
-from tasks.training import task212
-from tasks.training import task213
-from tasks.training import task214
-from tasks.training import task215
-from tasks.training import task216
-from tasks.training import task217
-from tasks.training import task218
-from tasks.training import task219
-from tasks.training import task220
-from tasks.training import task221
-from tasks.training import task222
-from tasks.training import task223
-from tasks.training import task224
-from tasks.training import task225
-from tasks.training import task226
-from tasks.training import task227
-from tasks.training import task228
-from tasks.training import task229
-from tasks.training import task230
-from tasks.training import task231
-from tasks.training import task232
-from tasks.training import task233
-from tasks.training import task234
-from tasks.training import task235
-from tasks.training import task236
-from tasks.training import task237
-from tasks.training import task238
-from tasks.training import task239
-from tasks.training import task240
-from tasks.training import task241
-from tasks.training import task242
-from tasks.training import task243
-from tasks.training import task244
-from tasks.training import task245
-from tasks.training import task246
-from tasks.training import task247
-from tasks.training import task248
-from tasks.training import task249
-from tasks.training import task250
-from tasks.training import task251
-from tasks.training import task252
-from tasks.training import task253
-from tasks.training import task254
-from tasks.training import task255
-from tasks.training import task256
-from tasks.training import task257
-from tasks.training import task258
-from tasks.training import task259
-from tasks.training import task260
-from tasks.training import task261
-from tasks.training import task262
-from tasks.training import task263
-from tasks.training import task264
-from tasks.training import task265
-from tasks.training import task266
-from tasks.training import task267
-from tasks.training import task268
-from tasks.training import task269
-from tasks.training import task270
-from tasks.training import task271
-from tasks.training import task272
-from tasks.training import task273
-from tasks.training import task274
-from tasks.training import task275
-from tasks.training import task276
-from tasks.training import task277
-from tasks.training import task278
-from tasks.training import task279
-from tasks.training import task280
-from tasks.training import task281
-from tasks.training import task282
-from tasks.training import task283
-from tasks.training import task284
-from tasks.training import task285
-from tasks.training import task286
-from tasks.training import task287
-from tasks.training import task288
-from tasks.training import task289
-from tasks.training import task290
-from tasks.training import task291
-from tasks.training import task292
-from tasks.training import task293
-from tasks.training import task294
-from tasks.training import task295
-from tasks.training import task296
-from tasks.training import task297
-from tasks.training import task298
-from tasks.training import task299
-from tasks.training import task300
-from tasks.training import task301
-from tasks.training import task302
-from tasks.training import task303
-from tasks.training import task304
-from tasks.training import task305
-from tasks.training import task306
-from tasks.training import task307
-from tasks.training import task308
-from tasks.training import task309
-from tasks.training import task310
-from tasks.training import task311
-from tasks.training import task312
-from tasks.training import task313
-from tasks.training import task314
-from tasks.training import task315
-from tasks.training import task316
-from tasks.training import task317
-from tasks.training import task318
-from tasks.training import task319
-from tasks.training import task320
-from tasks.training import task321
-from tasks.training import task322
-from tasks.training import task323
-from tasks.training import task324
-from tasks.training import task325
-from tasks.training import task326
-from tasks.training import task327
-from tasks.training import task328
-from tasks.training import task329
-from tasks.training import task330
-from tasks.training import task331
-from tasks.training import task332
-from tasks.training import task333
-from tasks.training import task334
-from tasks.training import task335
-from tasks.training import task336
-from tasks.training import task337
-from tasks.training import task338
-from tasks.training import task339
-from tasks.training import task340
-from tasks.training import task341
-from tasks.training import task342
-from tasks.training import task343
-from tasks.training import task344
-from tasks.training import task345
-from tasks.training import task346
-from tasks.training import task347
-from tasks.training import task348
-from tasks.training import task349
-from tasks.training import task350
-from tasks.training import task351
-from tasks.training import task352
-from tasks.training import task353
-from tasks.training import task354
-from tasks.training import task355
-from tasks.training import task356
-from tasks.training import task357
-from tasks.training import task358
-from tasks.training import task359
-from tasks.training import task360
-from tasks.training import task361
-from tasks.training import task362
-from tasks.training import task363
-from tasks.training import task364
-from tasks.training import task365
-from tasks.training import task366
-from tasks.training import task367
-from tasks.training import task368
-from tasks.training import task369
-from tasks.training import task370
-from tasks.training import task371
-from tasks.training import task372
-from tasks.training import task373
-from tasks.training import task374
-from tasks.training import task375
-from tasks.training import task376
-from tasks.training import task377
-from tasks.training import task378
-from tasks.training import task379
-from tasks.training import task380
-from tasks.training import task381
-from tasks.training import task382
-from tasks.training import task383
-from tasks.training import task384
-from tasks.training import task385
-from tasks.training import task386
-from tasks.training import task387
-from tasks.training import task388
-from tasks.training import task389
-from tasks.training import task390
-from tasks.training import task391
-from tasks.training import task392
-from tasks.training import task393
-from tasks.training import task394
-from tasks.training import task395
-from tasks.training import task396
-from tasks.training import task397
-from tasks.training import task398
-from tasks.training import task399
-from tasks.training import task400
-
+from tasks import task_007bbfb7
+from tasks import task_00d62c1b
+from tasks import task_017c7c7b
+from tasks import task_025d127b
+from tasks import task_045e512c
+from tasks import task_0520fde7
+from tasks import task_05269061
+from tasks import task_05f2a901
+from tasks import task_06df4c85
+from tasks import task_08ed6ac7
+from tasks import task_09629e4f
+from tasks import task_0962bcdd
+from tasks import task_0a938d79
+from tasks import task_0b148d64
+from tasks import task_0ca9ddb6
+from tasks import task_0d3d703e
+from tasks import task_0dfd9992
+from tasks import task_0e206a2e
+from tasks import task_10fcaaa3
+from tasks import task_11852cab
+from tasks import task_1190e5a7
+from tasks import task_137eaa0f
+from tasks import task_150deff5
+from tasks import task_178fcbfb
+from tasks import task_1a07d186
+from tasks import task_1b2d62fb
+from tasks import task_1b60fb0c
+from tasks import task_1bfc4729
+from tasks import task_1c786137
+from tasks import task_1caeab9d
+from tasks import task_1cf80156
+from tasks import task_1e0a9b12
+from tasks import task_1e32b0e9
+from tasks import task_1f0c79e5
+from tasks import task_1f642eb9
+from tasks import task_1f85a75f
+from tasks import task_1f876c06
+from tasks import task_1fad071e
+from tasks import task_2013d3e2
+from tasks import task_2204b7a8
+from tasks import task_22168020
+from tasks import task_22233c11
+from tasks import task_2281f1f4
+from tasks import task_228f6490
+from tasks import task_22eb0ac0
+from tasks import task_234bbc79
+from tasks import task_23581191
+from tasks import task_239be575
+from tasks import task_23b5c85d
+from tasks import task_253bf280
+from tasks import task_25d487eb
+from tasks import task_25d8a9c8
+from tasks import task_25ff71a9
+from tasks import task_264363fd
+from tasks import task_272f95fa
+from tasks import task_27a28665
+from tasks import task_28bf18c6
+from tasks import task_28e73c20
+from tasks import task_29623171
+from tasks import task_29c11459
+from tasks import task_29ec7d0e
+from tasks import task_2bcee788
+from tasks import task_2bee17df
+from tasks import task_2c608aff
+from tasks import task_2dc579da
+from tasks import task_2dd70a9a
+from tasks import task_2dee498d
+from tasks import task_31aa019c
+from tasks import task_321b1fc6
+from tasks import task_32597951
+from tasks import task_3345333e
+from tasks import task_3428a4f5
+from tasks import task_3618c87e
+from tasks import task_3631a71a
+from tasks import task_363442ee
+from tasks import task_36d67576
+from tasks import task_36fdfd69
+from tasks import task_3906de3d
+from tasks import task_39a8645d
+from tasks import task_39e1d7f9
+from tasks import task_3aa6fb7a
+from tasks import task_3ac3eb23
+from tasks import task_3af2c5a8
+from tasks import task_3bd67248
+from tasks import task_3bdb4ada
+from tasks import task_3befdf3e
+from tasks import task_3c9b0459
+from tasks import task_3de23699
+from tasks import task_3e980e27
+from tasks import task_3eda0437
+from tasks import task_3f7978a0
+from tasks import task_40853293
+from tasks import task_4093f84a
+from tasks import task_41e4d17e
+from tasks import task_4258a5f9
+from tasks import task_4290ef0e
+from tasks import task_42a50994
+from tasks import task_4347f46a
+from tasks import task_444801d8
+from tasks import task_445eab21
+from tasks import task_447fd412
+from tasks import task_44d8ac46
+from tasks import task_44f52bb0
+from tasks import task_4522001f
+from tasks import task_4612dd53
+from tasks import task_46442a0e
+from tasks import task_469497ad
+from tasks import task_46f33fce
+from tasks import task_47c1f68c
+from tasks import task_484b58aa
+from tasks import task_48d8fb45
+from tasks import task_4938f0c2
+from tasks import task_496994bd
+from tasks import task_49d1d64f
+from tasks import task_4be741c5
+from tasks import task_4c4377d9
+from tasks import task_4c5c2cf0
+from tasks import task_50846271
+from tasks import task_508bd3b6
+from tasks import task_50cb2852
+from tasks import task_5117e062
+from tasks import task_5168d44c
+from tasks import task_539a4f51
+from tasks import task_53b68214
+from tasks import task_543a7ed5
+from tasks import task_54d82841
+from tasks import task_54d9e175
+from tasks import task_5521c0d9
+from tasks import task_5582e5ca
+from tasks import task_5614dbcf
+from tasks import task_56dc2b01
+from tasks import task_56ff96f3
+from tasks import task_57aa92db
+from tasks import task_5ad4f10b
+from tasks import task_5bd6f4ac
+from tasks import task_5c0a986e
+from tasks import task_5c2c9af4
+from tasks import task_5daaa586
+from tasks import task_60b61512
+from tasks import task_6150a2bd
+from tasks import task_623ea044
+from tasks import task_62c24649
+from tasks import task_63613498
+from tasks import task_6430c8c4
+from tasks import task_6455b5f5
+from tasks import task_662c240a
+from tasks import task_67385a82
+from tasks import task_673ef223
+from tasks import task_6773b310
+from tasks import task_67a3c6ac
+from tasks import task_67a423a3
+from tasks import task_67e8384a
+from tasks import task_681b3aeb
+from tasks import task_6855a6e4
+from tasks import task_68b16354
+from tasks import task_694f12f3
+from tasks import task_6a1e5592
+from tasks import task_6aa20dc0
+from tasks import task_6b9890af
+from tasks import task_6c434453
+from tasks import task_6cdd2623
+from tasks import task_6cf79266
+from tasks import task_6d0160f0
+from tasks import task_6d0aefbc
+from tasks import task_6d58a25d
+from tasks import task_6d75e8bb
+from tasks import task_6e02f1e3
+from tasks import task_6e19193c
+from tasks import task_6e82a1ae
+from tasks import task_6ecd11f4
+from tasks import task_6f8cd79b
+from tasks import task_6fa7a44f
+from tasks import task_72322fa7
+from tasks import task_72ca375d
+from tasks import task_73251a56
+from tasks import task_7447852a
+from tasks import task_7468f01a
+from tasks import task_746b3537
+from tasks import task_74dd1130
+from tasks import task_75b8110e
+from tasks import task_760b3cac
+from tasks import task_776ffc46
+from tasks import task_77fdfe62
+from tasks import task_780d0b14
+from tasks import task_7837ac64
+from tasks import task_794b24be
+from tasks import task_7b6016b9
+from tasks import task_7b7f7511
+from tasks import task_7c008303
+from tasks import task_7ddcd7ec
+from tasks import task_7df24a62
+from tasks import task_7e0986d6
+from tasks import task_7f4411dc
+from tasks import task_7fe24cdd
+from tasks import task_80af3007
+from tasks import task_810b9b61
+from tasks import task_82819916
+from tasks import task_83302e8f
+from tasks import task_834ec97d
+from tasks import task_8403a5d5
+from tasks import task_846bdb03
+from tasks import task_855e0971
+from tasks import task_85c4e7cd
+from tasks import task_868de0fa
+from tasks import task_8731374e
+from tasks import task_88a10436
+from tasks import task_88a62173
+from tasks import task_890034e9
+from tasks import task_8a004b2b
+from tasks import task_8be77c9e
+from tasks import task_8d5021e8
+from tasks import task_8d510a79
+from tasks import task_8e1813be
+from tasks import task_8e5a5113
+from tasks import task_8eb1be9a
+from tasks import task_8efcae92
+from tasks import task_8f2ea7aa
+from tasks import task_90c28cc7
+from tasks import task_90f3ed37
+from tasks import task_913fb3ed
+from tasks import task_91413438
+from tasks import task_91714a58
+from tasks import task_9172f3a0
+from tasks import task_928ad970
+from tasks import task_93b581b8
+from tasks import task_941d9a10
+from tasks import task_94f9d214
+from tasks import task_952a094c
+from tasks import task_9565186b
+from tasks import task_95990924
+from tasks import task_963e52fc
+from tasks import task_97999447
+from tasks import task_97a05b5b
+from tasks import task_98cf29f8
+from tasks import task_995c5fa3
+from tasks import task_99b1bc43
+from tasks import task_99fa7670
+from tasks import task_9aec4887
+from tasks import task_9af7a82c
+from tasks import task_9d9215db
+from tasks import task_9dfd6313
+from tasks import task_9ecd008a
+from tasks import task_9edfc990
+from tasks import task_9f236235
+from tasks import task_a1570a43
+from tasks import task_a2fd1cf0
+from tasks import task_a3325580
+from tasks import task_a3df8b1e
+from tasks import task_a416b8f3
+from tasks import task_a48eeaf7
+from tasks import task_a5313dff
+from tasks import task_a5f85a15
+from tasks import task_a61ba2ce
+from tasks import task_a61f2674
+from tasks import task_a64e4611
+from tasks import task_a65b410d
+from tasks import task_a68b268e
+from tasks import task_a699fb00
+from tasks import task_a740d043
+from tasks import task_a78176bb
+from tasks import task_a79310a0
+from tasks import task_a85d4709
+from tasks import task_a87f7484
+from tasks import task_a8c38be5
+from tasks import task_a8d7556c
+from tasks import task_a9f96cdd
+from tasks import task_aabf363d
+from tasks import task_aba27056
+from tasks import task_ac0a08a4
+from tasks import task_ae3edfdc
+from tasks import task_ae4f1146
+from tasks import task_aedd82e4
+from tasks import task_af902bf9
+from tasks import task_b0c4d837
+from tasks import task_b190f7f5
+from tasks import task_b1948b0a
+from tasks import task_b230c067
+from tasks import task_b27ca6d3
+from tasks import task_b2862040
+from tasks import task_b527c5c6
+from tasks import task_b548a754
+from tasks import task_b60334d2
+from tasks import task_b6afb2da
+from tasks import task_b7249182
+from tasks import task_b775ac94
+from tasks import task_b782dc8a
+from tasks import task_b8825c91
+from tasks import task_b8cdaf2b
+from tasks import task_b91ae062
+from tasks import task_b94a9452
+from tasks import task_b9b7f026
+from tasks import task_ba26e723
+from tasks import task_ba97ae07
+from tasks import task_bb43febb
+from tasks import task_bbc9ae5d
+from tasks import task_bc1d5164
+from tasks import task_bd4472b8
+from tasks import task_bda2d7a6
+from tasks import task_bdad9b1f
+from tasks import task_be94b721
+from tasks import task_beb8660c
+from tasks import task_c0f76784
+from tasks import task_c1d99e64
+from tasks import task_c3e719e8
+from tasks import task_c3f564a4
+from tasks import task_c444b776
+from tasks import task_c59eb873
+from tasks import task_c8cbb738
+from tasks import task_c8f0f002
+from tasks import task_c909285e
+from tasks import task_c9e6f938
+from tasks import task_c9f8e694
+from tasks import task_caa06a1f
+from tasks import task_cbded52d
+from tasks import task_cce03e0d
+from tasks import task_cdecee7f
+from tasks import task_ce22a75a
+from tasks import task_ce4f8723
+from tasks import task_ce602527
+from tasks import task_ce9e57f2
+from tasks import task_cf98881b
+from tasks import task_d037b0a7
+from tasks import task_d06dbe63
+from tasks import task_d07ae81c
+from tasks import task_d0f5fe59
+from tasks import task_d10ecb37
+from tasks import task_d13f3404
+from tasks import task_d22278a0
+from tasks import task_d23f8c26
+from tasks import task_d2abd087
+from tasks import task_d364b489
+from tasks import task_d406998b
+from tasks import task_d43fd935
+from tasks import task_d4469b4b
+from tasks import task_d4a91cb9
+from tasks import task_d4f3cd78
+from tasks import task_d511f180
+from tasks import task_d5d6de2d
+from tasks import task_d631b094
+from tasks import task_d687bc17
+from tasks import task_d6ad076f
+from tasks import task_d89b689b
+from tasks import task_d8c310e9
+from tasks import task_d90796e8
+from tasks import task_d9f24cd1
+from tasks import task_d9fac9be
+from tasks import task_dae9d2b5
+from tasks import task_db3e9e38
+from tasks import task_db93a21d
+from tasks import task_dbc1a6ce
+from tasks import task_dc0a314f
+from tasks import task_dc1df850
+from tasks import task_dc433765
+from tasks import task_ddf7fa4f
+from tasks import task_de1cd16c
+from tasks import task_ded97339
+from tasks import task_e179c5f4
+from tasks import task_e21d9049
+from tasks import task_e26a3af2
+from tasks import task_e3497940
+from tasks import task_e40b9e2f
+from tasks import task_e48d4e1a
+from tasks import task_e5062a87
+from tasks import task_e509e548
+from tasks import task_e50d258f
+from tasks import task_e6721834
+from tasks import task_e73095fd
+from tasks import task_e76a88a6
+from tasks import task_e8593010
+from tasks import task_e8dc4411
+from tasks import task_e9614598
+from tasks import task_e98196ab
+from tasks import task_e9afcf9a
+from tasks import task_ea32f347
+from tasks import task_ea786f4a
+from tasks import task_eb281b96
+from tasks import task_eb5a1d5d
+from tasks import task_ec883f72
+from tasks import task_ecdecbb3
+from tasks import task_ed36ccf7
+from tasks import task_ef135b50
+from tasks import task_f15e1fac
+from tasks import task_f1cefba8
+from tasks import task_f25fbde4
+from tasks import task_f25ffba3
+from tasks import task_f2829549
+from tasks import task_f35d900a
+from tasks import task_f5b8619d
+from tasks import task_f76d97a5
+from tasks import task_f8a8fe49
+from tasks import task_f8b3ba0a
+from tasks import task_f8c80d96
+from tasks import task_f8ff0b80
+from tasks import task_f9012d9b
+from tasks import task_fafffa47
+from tasks import task_fcb5c309
+from tasks import task_fcc82909
+from tasks import task_feca6190
+from tasks import task_ff28f65a
+from tasks import task_ff805c23
 
 def task_list():
   """Tasks."""
   return {
-      1: ["007bbfb7", task001.generate, task001.validate],  # fractal
-      2: ["00d62c1b", task002.generate, task002.validate],  # honeypots
-      3: ["017c7c7b", task003.generate, task003.validate],  # beanstalk
-      4: ["025d127b", task004.generate, task004.validate],  # tilt
-      5: ["045e512c", task005.generate, task005.validate],  # stamp
-      6: ["0520fde7", task006.generate, task006.validate],  # intersect
-      7: ["05269061", task007.generate, task007.validate],  # diagstripes
-      8: ["05f2a901", task008.generate, task008.validate],  # magnets
-      9: ["06df4c85", task009.generate, task009.validate],  # gridlines
-      10: ["08ed6ac7", task010.generate, task010.validate],  # barchart
-      11: ["09629e4f", task011.generate, task011.validate],  # four
-      12: ["0962bcdd", task012.generate, task012.validate],  # supernova
-      13: ["0a938d79", task013.generate, task013.validate],  # columns
-      14: ["0b148d64", task014.generate, task014.validate],  # minstatic
-      15: ["0ca9ddb6", task015.generate, task015.validate],  # twinkle
-      16: ["0d3d703e", task016.generate, task016.validate],  # complement
-      17: ["0dfd9992", task017.generate, task017.validate],  # cutouts
-      18: ["0e206a2e", task018.generate, task018.validate],  # clones
-      19: ["10fcaaa3", task019.generate, task019.validate],  # quadcopter
-      20: ["11852cab", task020.generate, task020.validate],  # checkered
-      21: ["1190e5a7", task021.generate, task021.validate],  # groupby
-      22: ["137eaa0f", task022.generate, task022.validate],  # shatter
-      23: ["150deff5", task023.generate, task023.validate],  # tinkertoys
-      24: ["178fcbfb", task024.generate, task024.validate],  # rgb
-      25: ["1a07d186", task025.generate, task025.validate],  # cling
-      26: ["1b2d62fb", task026.generate, task026.validate],  # seethru
-      27: ["1b60fb0c", task027.generate, task027.validate],  # regrow
-      28: ["1bfc4729", task028.generate, task028.validate],  # frame
-      29: ["1c786137", task029.generate, task029.validate],  # crop
-      30: ["1caeab9d", task030.generate, task030.validate],  # valign
-      31: ["1cf80156", task031.generate, task031.validate],  # animals
-      32: ["1e0a9b12", task032.generate, task032.validate],  # gravity
-      33: ["1e32b0e9", task033.generate, task033.validate],  # mostest
-      34: ["1f0c79e5", task034.generate, task034.validate],  # sprout
-      35: ["1f642eb9", task035.generate, task035.validate],  # sprinkles
-      36: ["1f85a75f", task036.generate, task036.validate],  # celestial
-      37: ["1f876c06", task037.generate, task037.validate],  # diags
-      38: ["1fad071e", task038.generate, task038.validate],  # numbigblues
-      39: ["2013d3e2", task039.generate, task039.validate],  # pinwheel
-      40: ["2204b7a8", task040.generate, task040.validate],  # classify
-      41: ["22168020", task041.generate, task041.validate],  # antennafill
-      42: ["22233c11", task042.generate, task042.validate],  # kittycorner
-      43: ["2281f1f4", task043.generate, task043.validate],  # intersect
-      44: ["228f6490", task044.generate, task044.validate],  # putthemback
-      45: ["22eb0ac0", task045.generate, task045.validate],  # match
-      46: ["234bbc79", task046.generate, task046.validate],  # stitch
-      47: ["23581191", task047.generate, task047.validate],  # rooks
-      48: ["239be575", task048.generate, task048.validate],  # pathexists
-      49: ["23b5c85d", task049.generate, task049.validate],  # smallestrect
-      50: ["253bf280", task050.generate, task050.validate],  # lightsabers
-      51: ["25d487eb", task051.generate, task051.validate],  # laser
-      52: ["25d8a9c8", task052.generate, task052.validate],  # solid
-      53: ["25ff71a9", task053.generate, task053.validate],  # scooch
-      54: ["264363fd", task054.generate, task054.validate],  # flagmaker
-      55: ["272f95fa", task055.generate, task055.validate],  # fill
-      56: ["27a28665", task056.generate, task056.validate],  # oneof
-      57: ["28bf18c6", task057.generate, task057.validate],  # doublevision
-      58: ["28e73c20", task058.generate, task058.validate],  # spiral
-      59: ["29623171", task059.generate, task059.validate],  # argmax
-      60: ["29c11459", task060.generate, task060.validate],  # twotone
-      61: ["29ec7d0e", task061.generate, task061.validate],  # cutouts2
-      62: ["2bcee788", task062.generate, task062.validate],  # greenbelt
-      63: ["2bee17df", task063.generate, task063.validate],  # fringes
-      64: ["2c608aff", task064.generate, task064.validate],  # beamdown
-      65: ["2dc579da", task065.generate, task065.validate],  # oddoneout
-      66: ["2dd70a9a", task066.generate, task066.validate],  # ricochet
-      67: ["2dee498d", task067.generate, task067.validate],  # first
-      68: ["31aa019c", task068.generate, task068.validate],  # onlyone
-      69: ["321b1fc6", task069.generate, task069.validate],  # cutandpaste
-      70: ["32597951", task070.generate, task070.validate],  # screendoor
-      71: ["3345333e", task071.generate, task071.validate],  # occlusion
-      72: ["3428a4f5", task072.generate, task072.validate],  # xor
-      73: ["3618c87e", task073.generate, task073.validate],  # towers
-      74: ["3631a71a", task074.generate, task074.validate],  # kaleidoscope
-      75: ["363442ee", task075.generate, task075.validate],  # copypaste
-      76: ["36d67576", task076.generate, task076.validate],  # rainbowsprite
-      77: ["36fdfd69", task077.generate, task077.validate],  # underneath
-      78: ["3906de3d", task078.generate, task078.validate],  # slots
-      79: ["39a8645d", task079.generate, task079.validate],  # maxconway
-      80: ["39e1d7f9", task080.generate, task080.validate],  # gridlines2
-      81: ["3aa6fb7a", task081.generate, task081.validate],  # blueboxes
-      82: ["3ac3eb23", task082.generate, task082.validate],  # lattice
-      83: ["3af2c5a8", task083.generate, task083.validate],  # unfold
-      84: ["3bd67248", task084.generate, task084.validate],  # ketchup
-      85: ["3bdb4ada", task085.generate, task085.validate],  # punchcards
-      86: ["3befdf3e", task086.generate, task086.validate],  # anthesis
-      87: ["3c9b0459", task087.generate, task087.validate],  # rotate
-      88: ["3de23699", task088.generate, task088.validate],  # invertandzoom
-      89: ["3e980e27", task089.generate, task089.validate],  # spritefulsky
-      90: ["3eda0437", task090.generate, task090.validate],  # biggestgap
-      91: ["3f7978a0", task091.generate, task091.validate],  # glowsticks
-      92: ["40853293", task092.generate, task092.validate],  # sticks
-      93: ["4093f84a", task093.generate, task093.validate],  # precipitate
-      94: ["41e4d17e", task094.generate, task094.validate],  # crosshairs
-      95: ["4258a5f9", task095.generate, task095.validate],  # shield
-      96: ["4290ef0e", task096.generate, task096.validate],  # bullseye
-      97: ["42a50994", task097.generate, task097.validate],  # nofriends
-      98: ["4347f46a", task098.generate, task098.validate],  # hollowedout
-      99: ["444801d8", task099.generate, task099.validate],  # burst
-      100: ["445eab21", task100.generate, task100.validate],  # bigger
-      101: ["447fd412", task101.generate, task101.validate],  # similarshape
-      102: ["44d8ac46", task102.generate, task102.validate],  # squareornot
-      103: ["44f52bb0", task103.generate, task103.validate],  # issymmetric
-      104: ["4522001f", task104.generate, task104.validate],  # pimento
-      105: ["4612dd53", task105.generate, task105.validate],  # dottedboxes
-      106: ["46442a0e", task106.generate, task106.validate],  # quadruple
-      107: ["469497ad", task107.generate, task107.validate],  # enhancediag
-      108: ["46f33fce", task108.generate, task108.validate],  # waterbeads
-      109: ["47c1f68c", task109.generate, task109.validate],  # copyfour
-      110: ["484b58aa", task110.generate, task110.validate],  # cutouts3
-      111: ["48d8fb45", task111.generate, task111.validate],  # selector
-      112: ["4938f0c2", task112.generate, task112.validate],  # mistletoe
-      113: ["496994bd", task113.generate, task113.validate],  # reflection
-      114: ["49d1d64f", task114.generate, task114.validate],  # grow
-      115: ["4be741c5", task115.generate, task115.validate],  # wetpaint
-      116: ["4c4377d9", task116.generate, task116.validate],  # colorfoldup
-      117: ["4c5c2cf0", task117.generate, task117.validate],  # crablegs
-      118: ["50846271", task118.generate, task118.validate],  # underneath2
-      119: ["508bd3b6", task119.generate, task119.validate],  # rebound
-      120: ["50cb2852", task120.generate, task120.validate],  # cremefilled
-      121: ["5117e062", task121.generate, task121.validate],  # cyanconway
-      122: ["5168d44c", task122.generate, task122.validate],  # increment
-      123: ["539a4f51", task123.generate, task123.validate],  # coping
-      124: ["53b68214", task124.generate, task124.validate],  # extenddown
-      125: ["543a7ed5", task125.generate, task125.validate],  # nestedrects
-      126: ["54d82841", task126.generate, task126.validate],  # shooter
-      127: ["54d9e175", task127.generate, task127.validate],  # xmaslights
-      128: ["5521c0d9", task128.generate, task128.validate],  # jump
-      129: ["5582e5ca", task129.generate, task129.validate],  # mode
-      130: ["5614dbcf", task130.generate, task130.validate],  # destatic
-      131: ["56dc2b01", task131.generate, task131.validate],  # compressor
-      132: ["56ff96f3", task132.generate, task132.validate],  # corners
-      133: ["57aa92db", task133.generate, task133.validate],  # scaledregrow
-      134: ["5ad4f10b", task134.generate, task134.validate],  # megaconway
-      135: ["5bd6f4ac", task135.generate, task135.validate],  # topright
-      136: ["5c0a986e", task136.generate, task136.validate],  # captureflag
-      137: ["5c2c9af4", task137.generate, task137.validate],  # radar
-      138: ["5daaa586", task138.generate, task138.validate],  # colorfall
-      139: ["60b61512", task139.generate, task139.validate],  # refill
-      140: ["6150a2bd", task140.generate, task140.validate],  # invxpose
-      141: ["623ea044", task141.generate, task141.validate],  # bishop
-      142: ["62c24649", task142.generate, task142.validate],  # unfold2
-      143: ["63613498", task143.generate, task143.validate],  # graythematch
-      144: ["6430c8c4", task144.generate, task144.validate],  # voids
-      145: ["6455b5f5", task145.generate, task145.validate],  # bisection
-      146: ["662c240a", task146.generate, task146.validate],  # asymmetric
-      147: ["67385a82", task147.generate, task147.validate],  # components
-      148: ["673ef223", task148.generate, task148.validate],  # portals
-      149: ["6773b310", task149.generate, task149.validate],  # two
-      150: ["67a3c6ac", task150.generate, task150.validate],  # flip
-      151: ["67a423a3", task151.generate, task151.validate],  # buckle
-      152: ["67e8384a", task152.generate, task152.validate],  # unfold3
-      153: ["681b3aeb", task153.generate, task153.validate],  # recombine
-      154: ["6855a6e4", task154.generate, task154.validate],  # assemble
-      155: ["68b16354", task155.generate, task155.validate],  # flipinplace
-      156: ["694f12f3", task156.generate, task156.validate],  # mixedberry
-      157: ["6a1e5592", task157.generate, task157.validate],  # footprints
-      158: ["6aa20dc0", task158.generate, task158.validate],  # copyandzoom
-      159: ["6b9890af", task159.generate, task159.validate],  # conwaybox
-      160: ["6c434453", task160.generate, task160.validate],  # boxtoplus
-      161: ["6cdd2623", task161.generate, task161.validate],  # rowandcolumn
-      162: ["6cf79266", task162.generate, task162.validate],  # bluesquare
-      163: ["6d0160f0", task163.generate, task163.validate],  # unoamarillo
-      164: ["6d0aefbc", task164.generate, task164.validate],  # fliphoriz
-      165: ["6d58a25d", task165.generate, task165.validate],  # kites
-      166: ["6d75e8bb", task166.generate, task166.validate],  # velcro
-      167: ["6e02f1e3", task167.generate, task167.validate],  # numcolors
-      168: ["6e19193c", task168.generate, task168.validate],  # arrows
-      169: ["6e82a1ae", task169.generate, task169.validate],  # twothreefour
-      170: ["6ecd11f4", task170.generate, task170.validate],  # hybridsprite
-      171: ["6f8cd79b", task171.generate, task171.validate],  # border
-      172: ["6fa7a44f", task172.generate, task172.validate],  # flipvert
-      173: ["72322fa7", task173.generate, task173.validate],  # splitsprites
-      174: ["72ca375d", task174.generate, task174.validate],  # symmetricone
-      175: ["73251a56", task175.generate, task175.validate],  # cutouts4
-      176: ["7447852a", task176.generate, task176.validate],  # hotdog
-      177: ["7468f01a", task177.generate, task177.validate],  # flipandzoom
-      178: ["746b3537", task178.generate, task178.validate],  # layercake
-      179: ["74dd1130", task179.generate, task179.validate],  # xpose
-      180: ["75b8110e", task180.generate, task180.validate],  # layers
-      181: ["760b3cac", task181.generate, task181.validate],  # biflector
-      182: ["776ffc46", task182.generate, task182.validate],  # matchbox
-      183: ["77fdfe62", task183.generate, task183.validate],  # cornercolor
-      184: ["780d0b14", task184.generate, task184.validate],  # dirtyquilt
-      185: ["7837ac64", task185.generate, task185.validate],  # needlepoint
-      186: ["794b24be", task186.generate, task186.validate],  # count
-      187: ["7b6016b9", task187.generate, task187.validate],  # linedboxes
-      188: ["7b7f7511", task188.generate, task188.validate],  # half
-      189: ["7c008303", task189.generate, task189.validate],  # cornercolor2
-      190: ["7ddcd7ec", task190.generate, task190.validate],  # webslinger
-      191: ["7df24a62", task191.generate, task191.validate],  # patternmatch
-      192: ["7e0986d6", task192.generate, task192.validate],  # destatic2
-      193: ["7f4411dc", task193.generate, task193.validate],  # samestatic
-      194: ["7fe24cdd", task194.generate, task194.validate],  # pinwheel2
-      195: ["80af3007", task195.generate, task195.validate],  # graysprite
-      196: ["810b9b61", task196.generate, task196.validate],  # closedloop
-      197: ["82819916", task197.generate, task197.validate],  # autocomplete
-      198: ["83302e8f", task198.generate, task198.validate],  # permeation
-      199: ["834ec97d", task199.generate, task199.validate],  # yellowstripe
-      200: ["8403a5d5", task200.generate, task200.validate],  # snake
-      201: ["846bdb03", task201.generate, task201.validate],  # installation
-      202: ["855e0971", task202.generate, task202.validate],  # strata
-      203: ["85c4e7cd", task203.generate, task203.validate],  # framereverse
-      204: ["868de0fa", task204.generate, task204.validate],  # autumnboxes
-      205: ["8731374e", task205.generate, task205.validate],  # confettibox
-      206: ["88a10436", task206.generate, task206.validate],  # copypaste2
-      207: ["88a62173", task207.generate, task207.validate],  # onediff
-      208: ["890034e9", task208.generate, task208.validate],  # findcutouts
-      209: ["8a004b2b", task209.generate, task209.validate],  # copymagnify
-      210: ["8be77c9e", task210.generate, task210.validate],  # centerfold
-      211: ["8d5021e8", task211.generate, task211.validate],  # sixfold
-      212: ["8d510a79", task212.generate, task212.validate],  # groundsky
-      213: ["8e1813be", task213.generate, task213.validate],  # horizstripes
-      214: ["8e5a5113", task214.generate, task214.validate],  # rollingstone
-      215: ["8eb1be9a", task215.generate, task215.validate],  # pattern
-      216: ["8efcae92", task216.generate, task216.validate],  # mostpixels
-      217: ["8f2ea7aa", task217.generate, task217.validate],  # fractal2
-      218: ["90c28cc7", task218.generate, task218.validate],  # cleanquilt
-      219: ["90f3ed37", task219.generate, task219.validate],  # extendblue
-      220: ["913fb3ed", task220.generate, task220.validate],  # candyshells
-      221: ["91413438", task221.generate, task221.validate],  # lessismore
-      222: ["91714a58", task222.generate, task222.validate],  # justthebox
-      223: ["9172f3a0", task223.generate, task223.validate],  # enhance
-      224: ["928ad970", task224.generate, task224.validate],  # boxinabox
-      225: ["93b581b8", task225.generate, task225.validate],  # bloom
-      226: ["941d9a10", task226.generate, task226.validate],  # blueredgreen
-      227: ["94f9d214", task227.generate, task227.validate],  # voids2
-      228: ["952a094c", task228.generate, task228.validate],  # framereverse
-      229: ["9565186b", task229.generate, task229.validate],  # maxonly
-      230: ["95990924", task230.generate, task230.validate],  # quadlights
-      231: ["963e52fc", task231.generate, task231.validate],  # extendright
-      232: ["97999447", task232.generate, task232.validate],  # graysnakes
-      233: ["97a05b5b", task233.generate, task233.validate],  # perfection
-      234: ["98cf29f8", task234.generate, task234.validate],  # frogandfly
-      235: ["995c5fa3", task235.generate, task235.validate],  # iou
-      236: ["99b1bc43", task236.generate, task236.validate],  # xor2
-      237: ["99fa7670", task237.generate, task237.validate],  # overanddown
-      238: ["9aec4887", task238.generate, task238.validate],  # assimilate
-      239: ["9af7a82c", task239.generate, task239.validate],  # unroll
-      240: ["9d9215db", task240.generate, task240.validate],  # dottedsquare
-      241: ["9dfd6313", task241.generate, task241.validate],  # flipdiag
-      242: ["9ecd008a", task242.generate, task242.validate],  # blackcutout
-      243: ["9edfc990", task243.generate, task243.validate],  # porosity
-      244: ["9f236235", task244.generate, task244.validate],  # dehanceflip
-      245: ["a1570a43", task245.generate, task245.validate],  # recenter
-      246: ["a2fd1cf0", task246.generate, task246.validate],  # hpwl
-      247: ["a3325580", task247.generate, task247.validate],  # manymax
-      248: ["a3df8b1e", task248.generate, task248.validate],  # bounce
-      249: ["a416b8f3", task249.generate, task249.validate],  # clone
-      250: ["a48eeaf7", task250.generate, task250.validate],  # staticcling
-      251: ["a5313dff", task251.generate, task251.validate],  # targets
-      252: ["a5f85a15", task252.generate, task252.validate],  # evenodd
-      253: ["a61ba2ce", task253.generate, task253.validate],  # reassemble
-      254: ["a61f2674", task254.generate, task254.validate],  # minimax
-      255: ["a64e4611", task255.generate, task255.validate],  # excavation
-      256: ["a65b410d", task256.generate, task256.validate],  # grb
-      257: ["a68b268e", task257.generate, task257.validate],  # layers2
-      258: ["a699fb00", task258.generate, task258.validate],  # redblue
-      259: ["a740d043", task259.generate, task259.validate],  # zoomnoblue
-      260: ["a78176bb", task260.generate, task260.validate],  # stairways
-      261: ["a79310a0", task261.generate, task261.validate],  # redshift
-      262: ["a85d4709", task262.generate, task262.validate],  # stoplight
-      263: ["a87f7484", task263.generate, task263.validate],  # theweirdone
-      264: ["a8c38be5", task264.generate, task264.validate],  # ninebynine
-      265: ["a8d7556c", task265.generate, task265.validate],  # gapfiller
-      266: ["a9f96cdd", task266.generate, task266.validate],  # petalsonly
-      267: ["aabf363d", task267.generate, task267.validate],  # recolor
-      268: ["aba27056", task268.generate, task268.validate],  # fountain
-      269: ["ac0a08a4", task269.generate, task269.validate],  # enhance2
-      270: ["ae3edfdc", task270.generate, task270.validate],  # unexplode
-      271: ["ae4f1146", task271.generate, task271.validate],  # bluemax
-      272: ["aedd82e4", task272.generate, task272.validate],  # edgefree
-      273: ["af902bf9", task273.generate, task273.validate],  # magmacore
-      274: ["b0c4d837", task274.generate, task274.validate],  # halffull
-      275: ["b190f7f5", task275.generate, task275.validate],  # colorcopies
-      276: ["b1948b0a", task276.generate, task276.validate],  # redeye
-      277: ["b230c067", task277.generate, task277.validate],  # biggerisblue
-      278: ["b27ca6d3", task278.generate, task278.validate],  # olives
-      279: ["b2862040", task279.generate, task279.validate],  # openorclosed
-      280: ["b527c5c6", task280.generate, task280.validate],  # lasereyes
-      281: ["b548a754", task281.generate, task281.validate],  # envelop
-      282: ["b60334d2", task282.generate, task282.validate],  # lifesavers
-      283: ["b6afb2da", task283.generate, task283.validate],  # luxobox
-      284: ["b7249182", task284.generate, task284.validate],  # twotone2
-      285: ["b775ac94", task285.generate, task285.validate],  # missinglegs
-      286: ["b782dc8a", task286.generate, task286.validate],  # maizerouter
-      287: ["b8825c91", task287.generate, task287.validate],  # duocutout
-      288: ["b8cdaf2b", task288.generate, task288.validate],  # antenna
-      289: ["b91ae062", task289.generate, task289.validate],  # enhance3
-      290: ["b94a9452", task290.generate, task290.validate],  # zoominvert
-      291: ["b9b7f026", task291.generate, task291.validate],  # findthedonut
-      292: ["ba26e723", task292.generate, task292.validate],  # centipede
-      293: ["ba97ae07", task293.generate, task293.validate],  # sendtoback
-      294: ["bb43febb", task294.generate, task294.validate],  # jellyfilled
-      295: ["bbc9ae5d", task295.generate, task295.validate],  # stairs
-      296: ["bc1d5164", task296.generate, task296.validate],  # foldin
-      297: ["bd4472b8", task297.generate, task297.validate],  # xerox
-      298: ["bda2d7a6", task298.generate, task298.validate],  # crusher
-      299: ["bdad9b1f", task299.generate, task299.validate],  # crossroads
-      300: ["be94b721", task300.generate, task300.validate],  # biggestone
-      301: ["beb8660c", task301.generate, task301.validate],  # sorted
-      302: ["c0f76784", task302.generate, task302.validate],  # threesquares
-      303: ["c1d99e64", task303.generate, task303.validate],  # straightaway
-      304: ["c3e719e8", task304.generate, task304.validate],  # maxfractal
-      305: ["c3f564a4", task305.generate, task305.validate],  # holeystripes
-      306: ["c444b776", task306.generate, task306.validate],  # quadrantdust
-      307: ["c59eb873", task307.generate, task307.validate],  # enhance4
-      308: ["c8cbb738", task308.generate, task308.validate],  # brokenborder
-      309: ["c8f0f002", task309.generate, task309.validate],  # grayshift
-      310: ["c909285e", task310.generate, task310.validate],  # wafercut
-      311: ["c9e6f938", task311.generate, task311.validate],  # bitflip
-      312: ["c9f8e694", task312.generate, task312.validate],  # painters
-      313: ["caa06a1f", task313.generate, task313.validate],  # checkerboard
-      314: ["cbded52d", task314.generate, task314.validate],  # connectthree
-      315: ["cce03e0d", task315.generate, task315.validate],  # copyred
-      316: ["cdecee7f", task316.generate, task316.validate],  # permutation
-      317: ["ce22a75a", task317.generate, task317.validate],  # inflate
-      318: ["ce4f8723", task318.generate, task318.validate],  # greenmerge
-      319: ["ce602527", task319.generate, task319.validate],  # partialzoom
-      320: ["ce9e57f2", task320.generate, task320.validate],  # floordivide
-      321: ["cf98881b", task321.generate, task321.validate],  # layers3
-      322: ["d037b0a7", task322.generate, task322.validate],  # waterfall
-      323: ["d06dbe63", task323.generate, task323.validate],  # squiggle
-      324: ["d07ae81c", task324.generate, task324.validate],  # cutacross
-      325: ["d0f5fe59", task325.generate, task325.validate],  # countsprites
-      326: ["d10ecb37", task326.generate, task326.validate],  # topleft
-      327: ["d13f3404", task327.generate, task327.validate],  # crash
-      328: ["d22278a0", task328.generate, task328.validate],  # ripples
-      329: ["d23f8c26", task329.generate, task329.validate],  # middle
-      330: ["d2abd087", task330.generate, task330.validate],  # six
-      331: ["d364b489", task331.generate, task331.validate],  # pansies
-      332: ["d406998b", task332.generate, task332.validate],  # fireflies
-      333: ["d43fd935", task333.generate, task333.validate],  # greenmagnet
-      334: ["d4469b4b", task334.generate, task334.validate],  # rgbclassify
-      335: ["d4a91cb9", task335.generate, task335.validate],  # hpwl2
-      336: ["d4f3cd78", task336.generate, task336.validate],  # laminar
-      337: ["d511f180", task337.generate, task337.validate],  # grayblueswap
-      338: ["d5d6de2d", task338.generate, task338.validate],  # centersonly
-      339: ["d631b094", task339.generate, task339.validate],  # flat
-      340: ["d687bc17", task340.generate, task340.validate],  # colorclinger
-      341: ["d6ad076f", task341.generate, task341.validate],  # bridge
-      342: ["d89b689b", task342.generate, task342.validate],  # absorb
-      343: ["d8c310e9", task343.generate, task343.validate],  # cityskyline
-      344: ["d90796e8", task344.generate, task344.validate],  # drmario
-      345: ["d9f24cd1", task345.generate, task345.validate],  # bumpandrun
-      346: ["d9fac9be", task346.generate, task346.validate],  # centercell
-      347: ["dae9d2b5", task347.generate, task347.validate],  # mergenta
-      348: ["db3e9e38", task348.generate, task348.validate],  # pennant
-      349: ["db93a21d", task349.generate, task349.validate],  # deathstars
-      350: ["dbc1a6ce", task350.generate, task350.validate],  # connectdots
-      351: ["dc0a314f", task351.generate, task351.validate],  # greencutout
-      352: ["dc1df850", task352.generate, task352.validate],  # bluehalo
-      353: ["dc433765", task353.generate, task353.validate],  # creeper
-      354: ["ddf7fa4f", task354.generate, task354.validate],  # colorfill
-      355: ["de1cd16c", task355.generate, task355.validate],  # mostestcolor
-      356: ["ded97339", task356.generate, task356.validate],  # skyconnect
-      357: ["e179c5f4", task357.generate, task357.validate],  # skybounce
-      358: ["e21d9049", task358.generate, task358.validate],  # rainbowroads
-      359: ["e26a3af2", task359.generate, task359.validate],  # denoise
-      360: ["e3497940", task360.generate, task360.validate],  # foldandmerge
-      361: ["e40b9e2f", task361.generate, task361.validate],  # pinwheel3
-      362: ["e48d4e1a", task362.generate, task362.validate],  # diagonally
-      363: ["e5062a87", task363.generate, task363.validate],  # spritegaps
-      364: ["e509e548", task364.generate, task364.validate],  # elyouoraitch
-      365: ["e50d258f", task365.generate, task365.validate],  # themostreds
-      366: ["e6721834", task366.generate, task366.validate],  # compositing
-      367: ["e73095fd", task367.generate, task367.validate],  # squarenet
-      368: ["e76a88a6", task368.generate, task368.validate],  # copypaste3
-      369: ["e8593010", task369.generate, task369.validate],  # onetwothree
-      370: ["e8dc4411", task370.generate, task370.validate],  # continuation
-      371: ["e9614598", task371.generate, task371.validate],  # farmacia
-      372: ["e98196ab", task372.generate, task372.validate],  # blend
-      373: ["e9afcf9a", task373.generate, task373.validate],  # twist
-      374: ["ea32f347", task374.generate, task374.validate],  # threebears
-      375: ["ea786f4a", task375.generate, task375.validate],  # x
-      376: ["eb281b96", task376.generate, task376.validate],  # stretch
-      377: ["eb5a1d5d", task377.generate, task377.validate],  # matryoshka
-      378: ["ec883f72", task378.generate, task378.validate],  # antennaman
-      379: ["ecdecbb3", task379.generate, task379.validate],  # projection
-      380: ["ed36ccf7", task380.generate, task380.validate],  # rotate2
-      381: ["ef135b50", task381.generate, task381.validate],  # redcarpet
-      382: ["f15e1fac", task382.generate, task382.validate],  # shove
-      383: ["f1cefba8", task383.generate, task383.validate],  # rebar
-      384: ["f25fbde4", task384.generate, task384.validate],  # yellowsub
-      385: ["f25ffba3", task385.generate, task385.validate],  # vflip
-      386: ["f2829549", task386.generate, task386.validate],  # voids3
-      387: ["f35d900a", task387.generate, task387.validate],  # fourcorners
-      388: ["f5b8619d", task388.generate, task388.validate],  # tessellate
-      389: ["f76d97a5", task389.generate, task389.validate],  # invert
-      390: ["f8a8fe49", task390.generate, task390.validate],  # disassemble
-      391: ["f8b3ba0a", task391.generate, task391.validate],  # dashboard
-      392: ["f8c80d96", task392.generate, task392.validate],  # multimat
-      393: ["f8ff0b80", task393.generate, task393.validate],  # descending
-      394: ["f9012d9b", task394.generate, task394.validate],  # missingpiece
-      395: ["fafffa47", task395.generate, task395.validate],  # voids4
-      396: ["fcb5c309", task396.generate, task396.validate],  # containsmost
-      397: ["fcc82909", task397.generate, task397.validate],  # greenshadow
-      398: ["feca6190", task398.generate, task398.validate],  # soar
-      399: ["ff28f65a", task399.generate, task399.validate],  # numboxes
-      400: ["ff805c23", task400.generate, task400.validate],  # cutoutoscope
+      "007bbfb7": [task_007bbfb7.generate, task_007bbfb7.validate],  # fractal
+      "00d62c1b": [task_00d62c1b.generate, task_00d62c1b.validate],  # honeypots
+      "017c7c7b": [task_017c7c7b.generate, task_017c7c7b.validate],  # beanstalk
+      "025d127b": [task_025d127b.generate, task_025d127b.validate],  # tilt
+      "045e512c": [task_045e512c.generate, task_045e512c.validate],  # stamp
+      "0520fde7": [task_0520fde7.generate, task_0520fde7.validate],  # intersect
+      "05269061": [task_05269061.generate, task_05269061.validate],  # diagstripes
+      "05f2a901": [task_05f2a901.generate, task_05f2a901.validate],  # magnets
+      "06df4c85": [task_06df4c85.generate, task_06df4c85.validate],  # gridlines
+      "08ed6ac7": [task_08ed6ac7.generate, task_08ed6ac7.validate],  # barchart
+      "09629e4f": [task_09629e4f.generate, task_09629e4f.validate],  # four
+      "0962bcdd": [task_0962bcdd.generate, task_0962bcdd.validate],  # supernova
+      "0a938d79": [task_0a938d79.generate, task_0a938d79.validate],  # columns
+      "0b148d64": [task_0b148d64.generate, task_0b148d64.validate],  # minstatic
+      "0ca9ddb6": [task_0ca9ddb6.generate, task_0ca9ddb6.validate],  # twinkle
+      "0d3d703e": [task_0d3d703e.generate, task_0d3d703e.validate],  # complement
+      "0dfd9992": [task_0dfd9992.generate, task_0dfd9992.validate],  # cutouts
+      "0e206a2e": [task_0e206a2e.generate, task_0e206a2e.validate],  # clones
+      "10fcaaa3": [task_10fcaaa3.generate, task_10fcaaa3.validate],  # quadcopter
+      "11852cab": [task_11852cab.generate, task_11852cab.validate],  # checkered
+      "1190e5a7": [task_1190e5a7.generate, task_1190e5a7.validate],  # groupby
+      "137eaa0f": [task_137eaa0f.generate, task_137eaa0f.validate],  # shatter
+      "150deff5": [task_150deff5.generate, task_150deff5.validate],  # tinkertoys
+      "178fcbfb": [task_178fcbfb.generate, task_178fcbfb.validate],  # rgb
+      "1a07d186": [task_1a07d186.generate, task_1a07d186.validate],  # cling
+      "1b2d62fb": [task_1b2d62fb.generate, task_1b2d62fb.validate],  # seethru
+      "1b60fb0c": [task_1b60fb0c.generate, task_1b60fb0c.validate],  # regrow
+      "1bfc4729": [task_1bfc4729.generate, task_1bfc4729.validate],  # frame
+      "1c786137": [task_1c786137.generate, task_1c786137.validate],  # crop
+      "1caeab9d": [task_1caeab9d.generate, task_1caeab9d.validate],  # valign
+      "1cf80156": [task_1cf80156.generate, task_1cf80156.validate],  # animals
+      "1e0a9b12": [task_1e0a9b12.generate, task_1e0a9b12.validate],  # gravity
+      "1e32b0e9": [task_1e32b0e9.generate, task_1e32b0e9.validate],  # mostest
+      "1f0c79e5": [task_1f0c79e5.generate, task_1f0c79e5.validate],  # sprout
+      "1f642eb9": [task_1f642eb9.generate, task_1f642eb9.validate],  # sprinkles
+      "1f85a75f": [task_1f85a75f.generate, task_1f85a75f.validate],  # celestial
+      "1f876c06": [task_1f876c06.generate, task_1f876c06.validate],  # diags
+      "1fad071e": [task_1fad071e.generate, task_1fad071e.validate],  # numbigblues
+      "2013d3e2": [task_2013d3e2.generate, task_2013d3e2.validate],  # pinwheel
+      "2204b7a8": [task_2204b7a8.generate, task_2204b7a8.validate],  # classify
+      "22168020": [task_22168020.generate, task_22168020.validate],  # antennafill
+      "22233c11": [task_22233c11.generate, task_22233c11.validate],  # kittycorner
+      "2281f1f4": [task_2281f1f4.generate, task_2281f1f4.validate],  # intersect
+      "228f6490": [task_228f6490.generate, task_228f6490.validate],  # putthemback
+      "22eb0ac0": [task_22eb0ac0.generate, task_22eb0ac0.validate],  # match
+      "234bbc79": [task_234bbc79.generate, task_234bbc79.validate],  # stitch
+      "23581191": [task_23581191.generate, task_23581191.validate],  # rooks
+      "239be575": [task_239be575.generate, task_239be575.validate],  # pathexists
+      "23b5c85d": [task_23b5c85d.generate, task_23b5c85d.validate],  # smallestrect
+      "253bf280": [task_253bf280.generate, task_253bf280.validate],  # lightsabers
+      "25d487eb": [task_25d487eb.generate, task_25d487eb.validate],  # laser
+      "25d8a9c8": [task_25d8a9c8.generate, task_25d8a9c8.validate],  # solid
+      "25ff71a9": [task_25ff71a9.generate, task_25ff71a9.validate],  # scooch
+      "264363fd": [task_264363fd.generate, task_264363fd.validate],  # flagmaker
+      "272f95fa": [task_272f95fa.generate, task_272f95fa.validate],  # fill
+      "27a28665": [task_27a28665.generate, task_27a28665.validate],  # oneof
+      "28bf18c6": [task_28bf18c6.generate, task_28bf18c6.validate],  # doublevision
+      "28e73c20": [task_28e73c20.generate, task_28e73c20.validate],  # spiral
+      "29623171": [task_29623171.generate, task_29623171.validate],  # argmax
+      "29c11459": [task_29c11459.generate, task_29c11459.validate],  # twotone
+      "29ec7d0e": [task_29ec7d0e.generate, task_29ec7d0e.validate],  # cutouts2
+      "2bcee788": [task_2bcee788.generate, task_2bcee788.validate],  # greenbelt
+      "2bee17df": [task_2bee17df.generate, task_2bee17df.validate],  # fringes
+      "2c608aff": [task_2c608aff.generate, task_2c608aff.validate],  # beamdown
+      "2dc579da": [task_2dc579da.generate, task_2dc579da.validate],  # oddoneout
+      "2dd70a9a": [task_2dd70a9a.generate, task_2dd70a9a.validate],  # ricochet
+      "2dee498d": [task_2dee498d.generate, task_2dee498d.validate],  # first
+      "31aa019c": [task_31aa019c.generate, task_31aa019c.validate],  # onlyone
+      "321b1fc6": [task_321b1fc6.generate, task_321b1fc6.validate],  # cutandpaste
+      "32597951": [task_32597951.generate, task_32597951.validate],  # screendoor
+      "3345333e": [task_3345333e.generate, task_3345333e.validate],  # occlusion
+      "3428a4f5": [task_3428a4f5.generate, task_3428a4f5.validate],  # xor
+      "3618c87e": [task_3618c87e.generate, task_3618c87e.validate],  # towers
+      "3631a71a": [task_3631a71a.generate, task_3631a71a.validate],  # kaleidoscope
+      "363442ee": [task_363442ee.generate, task_363442ee.validate],  # copypaste
+      "36d67576": [task_36d67576.generate, task_36d67576.validate],  # rainbowsprite
+      "36fdfd69": [task_36fdfd69.generate, task_36fdfd69.validate],  # underneath
+      "3906de3d": [task_3906de3d.generate, task_3906de3d.validate],  # slots
+      "39a8645d": [task_39a8645d.generate, task_39a8645d.validate],  # maxconway
+      "39e1d7f9": [task_39e1d7f9.generate, task_39e1d7f9.validate],  # gridlines2
+      "3aa6fb7a": [task_3aa6fb7a.generate, task_3aa6fb7a.validate],  # blueboxes
+      "3ac3eb23": [task_3ac3eb23.generate, task_3ac3eb23.validate],  # lattice
+      "3af2c5a8": [task_3af2c5a8.generate, task_3af2c5a8.validate],  # unfold
+      "3bd67248": [task_3bd67248.generate, task_3bd67248.validate],  # ketchup
+      "3bdb4ada": [task_3bdb4ada.generate, task_3bdb4ada.validate],  # punchcards
+      "3befdf3e": [task_3befdf3e.generate, task_3befdf3e.validate],  # anthesis
+      "3c9b0459": [task_3c9b0459.generate, task_3c9b0459.validate],  # rotate
+      "3de23699": [task_3de23699.generate, task_3de23699.validate],  # invertandzoom
+      "3e980e27": [task_3e980e27.generate, task_3e980e27.validate],  # spritefulsky
+      "3eda0437": [task_3eda0437.generate, task_3eda0437.validate],  # biggestgap
+      "3f7978a0": [task_3f7978a0.generate, task_3f7978a0.validate],  # glowsticks
+      "40853293": [task_40853293.generate, task_40853293.validate],  # sticks
+      "4093f84a": [task_4093f84a.generate, task_4093f84a.validate],  # precipitate
+      "41e4d17e": [task_41e4d17e.generate, task_41e4d17e.validate],  # crosshairs
+      "4258a5f9": [task_4258a5f9.generate, task_4258a5f9.validate],  # shield
+      "4290ef0e": [task_4290ef0e.generate, task_4290ef0e.validate],  # bullseye
+      "42a50994": [task_42a50994.generate, task_42a50994.validate],  # nofriends
+      "4347f46a": [task_4347f46a.generate, task_4347f46a.validate],  # hollowedout
+      "444801d8": [task_444801d8.generate, task_444801d8.validate],  # burst
+      "445eab21": [task_445eab21.generate, task_445eab21.validate],  # bigger
+      "447fd412": [task_447fd412.generate, task_447fd412.validate],  # similarshape
+      "44d8ac46": [task_44d8ac46.generate, task_44d8ac46.validate],  # squareornot
+      "44f52bb0": [task_44f52bb0.generate, task_44f52bb0.validate],  # issymmetric
+      "4522001f": [task_4522001f.generate, task_4522001f.validate],  # pimento
+      "4612dd53": [task_4612dd53.generate, task_4612dd53.validate],  # dottedboxes
+      "46442a0e": [task_46442a0e.generate, task_46442a0e.validate],  # quadruple
+      "469497ad": [task_469497ad.generate, task_469497ad.validate],  # enhancediag
+      "46f33fce": [task_46f33fce.generate, task_46f33fce.validate],  # waterbeads
+      "47c1f68c": [task_47c1f68c.generate, task_47c1f68c.validate],  # copyfour
+      "484b58aa": [task_484b58aa.generate, task_484b58aa.validate],  # cutouts3
+      "48d8fb45": [task_48d8fb45.generate, task_48d8fb45.validate],  # selector
+      "4938f0c2": [task_4938f0c2.generate, task_4938f0c2.validate],  # mistletoe
+      "496994bd": [task_496994bd.generate, task_496994bd.validate],  # reflection
+      "49d1d64f": [task_49d1d64f.generate, task_49d1d64f.validate],  # grow
+      "4be741c5": [task_4be741c5.generate, task_4be741c5.validate],  # wetpaint
+      "4c4377d9": [task_4c4377d9.generate, task_4c4377d9.validate],  # colorfoldup
+      "4c5c2cf0": [task_4c5c2cf0.generate, task_4c5c2cf0.validate],  # crablegs
+      "50846271": [task_50846271.generate, task_50846271.validate],  # underneath2
+      "508bd3b6": [task_508bd3b6.generate, task_508bd3b6.validate],  # rebound
+      "50cb2852": [task_50cb2852.generate, task_50cb2852.validate],  # cremefilled
+      "5117e062": [task_5117e062.generate, task_5117e062.validate],  # cyanconway
+      "5168d44c": [task_5168d44c.generate, task_5168d44c.validate],  # increment
+      "539a4f51": [task_539a4f51.generate, task_539a4f51.validate],  # coping
+      "53b68214": [task_53b68214.generate, task_53b68214.validate],  # extenddown
+      "543a7ed5": [task_543a7ed5.generate, task_543a7ed5.validate],  # nestedrects
+      "54d82841": [task_54d82841.generate, task_54d82841.validate],  # shooter
+      "54d9e175": [task_54d9e175.generate, task_54d9e175.validate],  # xmaslights
+      "5521c0d9": [task_5521c0d9.generate, task_5521c0d9.validate],  # jump
+      "5582e5ca": [task_5582e5ca.generate, task_5582e5ca.validate],  # mode
+      "5614dbcf": [task_5614dbcf.generate, task_5614dbcf.validate],  # destatic
+      "56dc2b01": [task_56dc2b01.generate, task_56dc2b01.validate],  # compressor
+      "56ff96f3": [task_56ff96f3.generate, task_56ff96f3.validate],  # corners
+      "57aa92db": [task_57aa92db.generate, task_57aa92db.validate],  # scaledregrow
+      "5ad4f10b": [task_5ad4f10b.generate, task_5ad4f10b.validate],  # megaconway
+      "5bd6f4ac": [task_5bd6f4ac.generate, task_5bd6f4ac.validate],  # topright
+      "5c0a986e": [task_5c0a986e.generate, task_5c0a986e.validate],  # captureflag
+      "5c2c9af4": [task_5c2c9af4.generate, task_5c2c9af4.validate],  # radar
+      "5daaa586": [task_5daaa586.generate, task_5daaa586.validate],  # colorfall
+      "60b61512": [task_60b61512.generate, task_60b61512.validate],  # refill
+      "6150a2bd": [task_6150a2bd.generate, task_6150a2bd.validate],  # invxpose
+      "623ea044": [task_623ea044.generate, task_623ea044.validate],  # bishop
+      "62c24649": [task_62c24649.generate, task_62c24649.validate],  # unfold2
+      "63613498": [task_63613498.generate, task_63613498.validate],  # graythematch
+      "6430c8c4": [task_6430c8c4.generate, task_6430c8c4.validate],  # voids
+      "6455b5f5": [task_6455b5f5.generate, task_6455b5f5.validate],  # bisection
+      "662c240a": [task_662c240a.generate, task_662c240a.validate],  # asymmetric
+      "67385a82": [task_67385a82.generate, task_67385a82.validate],  # components
+      "673ef223": [task_673ef223.generate, task_673ef223.validate],  # portals
+      "6773b310": [task_6773b310.generate, task_6773b310.validate],  # two
+      "67a3c6ac": [task_67a3c6ac.generate, task_67a3c6ac.validate],  # flip
+      "67a423a3": [task_67a423a3.generate, task_67a423a3.validate],  # buckle
+      "67e8384a": [task_67e8384a.generate, task_67e8384a.validate],  # unfold3
+      "681b3aeb": [task_681b3aeb.generate, task_681b3aeb.validate],  # recombine
+      "6855a6e4": [task_6855a6e4.generate, task_6855a6e4.validate],  # assemble
+      "68b16354": [task_68b16354.generate, task_68b16354.validate],  # flipinplace
+      "694f12f3": [task_694f12f3.generate, task_694f12f3.validate],  # mixedberry
+      "6a1e5592": [task_6a1e5592.generate, task_6a1e5592.validate],  # footprints
+      "6aa20dc0": [task_6aa20dc0.generate, task_6aa20dc0.validate],  # copyandzoom
+      "6b9890af": [task_6b9890af.generate, task_6b9890af.validate],  # conwaybox
+      "6c434453": [task_6c434453.generate, task_6c434453.validate],  # boxtoplus
+      "6cdd2623": [task_6cdd2623.generate, task_6cdd2623.validate],  # rowandcolumn
+      "6cf79266": [task_6cf79266.generate, task_6cf79266.validate],  # bluesquare
+      "6d0160f0": [task_6d0160f0.generate, task_6d0160f0.validate],  # unoamarillo
+      "6d0aefbc": [task_6d0aefbc.generate, task_6d0aefbc.validate],  # fliphoriz
+      "6d58a25d": [task_6d58a25d.generate, task_6d58a25d.validate],  # kites
+      "6d75e8bb": [task_6d75e8bb.generate, task_6d75e8bb.validate],  # velcro
+      "6e02f1e3": [task_6e02f1e3.generate, task_6e02f1e3.validate],  # numcolors
+      "6e19193c": [task_6e19193c.generate, task_6e19193c.validate],  # arrows
+      "6e82a1ae": [task_6e82a1ae.generate, task_6e82a1ae.validate],  # twothreefour
+      "6ecd11f4": [task_6ecd11f4.generate, task_6ecd11f4.validate],  # hybridsprite
+      "6f8cd79b": [task_6f8cd79b.generate, task_6f8cd79b.validate],  # border
+      "6fa7a44f": [task_6fa7a44f.generate, task_6fa7a44f.validate],  # flipvert
+      "72322fa7": [task_72322fa7.generate, task_72322fa7.validate],  # splitsprites
+      "72ca375d": [task_72ca375d.generate, task_72ca375d.validate],  # symmetricone
+      "73251a56": [task_73251a56.generate, task_73251a56.validate],  # cutouts4
+      "7447852a": [task_7447852a.generate, task_7447852a.validate],  # hotdog
+      "7468f01a": [task_7468f01a.generate, task_7468f01a.validate],  # flipandzoom
+      "746b3537": [task_746b3537.generate, task_746b3537.validate],  # layercake
+      "74dd1130": [task_74dd1130.generate, task_74dd1130.validate],  # xpose
+      "75b8110e": [task_75b8110e.generate, task_75b8110e.validate],  # layers
+      "760b3cac": [task_760b3cac.generate, task_760b3cac.validate],  # biflector
+      "776ffc46": [task_776ffc46.generate, task_776ffc46.validate],  # matchbox
+      "77fdfe62": [task_77fdfe62.generate, task_77fdfe62.validate],  # cornercolor
+      "780d0b14": [task_780d0b14.generate, task_780d0b14.validate],  # dirtyquilt
+      "7837ac64": [task_7837ac64.generate, task_7837ac64.validate],  # needlepoint
+      "794b24be": [task_794b24be.generate, task_794b24be.validate],  # count
+      "7b6016b9": [task_7b6016b9.generate, task_7b6016b9.validate],  # linedboxes
+      "7b7f7511": [task_7b7f7511.generate, task_7b7f7511.validate],  # half
+      "7c008303": [task_7c008303.generate, task_7c008303.validate],  # cornercolor2
+      "7ddcd7ec": [task_7ddcd7ec.generate, task_7ddcd7ec.validate],  # webslinger
+      "7df24a62": [task_7df24a62.generate, task_7df24a62.validate],  # patternmatch
+      "7e0986d6": [task_7e0986d6.generate, task_7e0986d6.validate],  # destatic2
+      "7f4411dc": [task_7f4411dc.generate, task_7f4411dc.validate],  # samestatic
+      "7fe24cdd": [task_7fe24cdd.generate, task_7fe24cdd.validate],  # pinwheel2
+      "80af3007": [task_80af3007.generate, task_80af3007.validate],  # graysprite
+      "810b9b61": [task_810b9b61.generate, task_810b9b61.validate],  # closedloop
+      "82819916": [task_82819916.generate, task_82819916.validate],  # autocomplete
+      "83302e8f": [task_83302e8f.generate, task_83302e8f.validate],  # permeation
+      "834ec97d": [task_834ec97d.generate, task_834ec97d.validate],  # yellowstripe
+      "8403a5d5": [task_8403a5d5.generate, task_8403a5d5.validate],  # snake
+      "846bdb03": [task_846bdb03.generate, task_846bdb03.validate],  # installation
+      "855e0971": [task_855e0971.generate, task_855e0971.validate],  # strata
+      "85c4e7cd": [task_85c4e7cd.generate, task_85c4e7cd.validate],  # framereverse
+      "868de0fa": [task_868de0fa.generate, task_868de0fa.validate],  # autumnboxes
+      "8731374e": [task_8731374e.generate, task_8731374e.validate],  # confettibox
+      "88a10436": [task_88a10436.generate, task_88a10436.validate],  # copypaste2
+      "88a62173": [task_88a62173.generate, task_88a62173.validate],  # onediff
+      "890034e9": [task_890034e9.generate, task_890034e9.validate],  # findcutouts
+      "8a004b2b": [task_8a004b2b.generate, task_8a004b2b.validate],  # copymagnify
+      "8be77c9e": [task_8be77c9e.generate, task_8be77c9e.validate],  # centerfold
+      "8d5021e8": [task_8d5021e8.generate, task_8d5021e8.validate],  # sixfold
+      "8d510a79": [task_8d510a79.generate, task_8d510a79.validate],  # groundsky
+      "8e1813be": [task_8e1813be.generate, task_8e1813be.validate],  # horizstripes
+      "8e5a5113": [task_8e5a5113.generate, task_8e5a5113.validate],  # rollingstone
+      "8eb1be9a": [task_8eb1be9a.generate, task_8eb1be9a.validate],  # pattern
+      "8efcae92": [task_8efcae92.generate, task_8efcae92.validate],  # mostpixels
+      "8f2ea7aa": [task_8f2ea7aa.generate, task_8f2ea7aa.validate],  # fractal2
+      "90c28cc7": [task_90c28cc7.generate, task_90c28cc7.validate],  # cleanquilt
+      "90f3ed37": [task_90f3ed37.generate, task_90f3ed37.validate],  # extendblue
+      "913fb3ed": [task_913fb3ed.generate, task_913fb3ed.validate],  # candyshells
+      "91413438": [task_91413438.generate, task_91413438.validate],  # lessismore
+      "91714a58": [task_91714a58.generate, task_91714a58.validate],  # justthebox
+      "9172f3a0": [task_9172f3a0.generate, task_9172f3a0.validate],  # enhance
+      "928ad970": [task_928ad970.generate, task_928ad970.validate],  # boxinabox
+      "93b581b8": [task_93b581b8.generate, task_93b581b8.validate],  # bloom
+      "941d9a10": [task_941d9a10.generate, task_941d9a10.validate],  # blueredgreen
+      "94f9d214": [task_94f9d214.generate, task_94f9d214.validate],  # voids2
+      "952a094c": [task_952a094c.generate, task_952a094c.validate],  # framereverse
+      "9565186b": [task_9565186b.generate, task_9565186b.validate],  # maxonly
+      "95990924": [task_95990924.generate, task_95990924.validate],  # quadlights
+      "963e52fc": [task_963e52fc.generate, task_963e52fc.validate],  # extendright
+      "97999447": [task_97999447.generate, task_97999447.validate],  # graysnakes
+      "97a05b5b": [task_97a05b5b.generate, task_97a05b5b.validate],  # perfection
+      "98cf29f8": [task_98cf29f8.generate, task_98cf29f8.validate],  # frogandfly
+      "995c5fa3": [task_995c5fa3.generate, task_995c5fa3.validate],  # iou
+      "99b1bc43": [task_99b1bc43.generate, task_99b1bc43.validate],  # xor2
+      "99fa7670": [task_99fa7670.generate, task_99fa7670.validate],  # overanddown
+      "9aec4887": [task_9aec4887.generate, task_9aec4887.validate],  # assimilate
+      "9af7a82c": [task_9af7a82c.generate, task_9af7a82c.validate],  # unroll
+      "9d9215db": [task_9d9215db.generate, task_9d9215db.validate],  # dottedsquare
+      "9dfd6313": [task_9dfd6313.generate, task_9dfd6313.validate],  # flipdiag
+      "9ecd008a": [task_9ecd008a.generate, task_9ecd008a.validate],  # blackcutout
+      "9edfc990": [task_9edfc990.generate, task_9edfc990.validate],  # porosity
+      "9f236235": [task_9f236235.generate, task_9f236235.validate],  # dehanceflip
+      "a1570a43": [task_a1570a43.generate, task_a1570a43.validate],  # recenter
+      "a2fd1cf0": [task_a2fd1cf0.generate, task_a2fd1cf0.validate],  # hpwl
+      "a3325580": [task_a3325580.generate, task_a3325580.validate],  # manymax
+      "a3df8b1e": [task_a3df8b1e.generate, task_a3df8b1e.validate],  # bounce
+      "a416b8f3": [task_a416b8f3.generate, task_a416b8f3.validate],  # clone
+      "a48eeaf7": [task_a48eeaf7.generate, task_a48eeaf7.validate],  # staticcling
+      "a5313dff": [task_a5313dff.generate, task_a5313dff.validate],  # targets
+      "a5f85a15": [task_a5f85a15.generate, task_a5f85a15.validate],  # evenodd
+      "a61ba2ce": [task_a61ba2ce.generate, task_a61ba2ce.validate],  # reassemble
+      "a61f2674": [task_a61f2674.generate, task_a61f2674.validate],  # minimax
+      "a64e4611": [task_a64e4611.generate, task_a64e4611.validate],  # excavation
+      "a65b410d": [task_a65b410d.generate, task_a65b410d.validate],  # grb
+      "a68b268e": [task_a68b268e.generate, task_a68b268e.validate],  # layers2
+      "a699fb00": [task_a699fb00.generate, task_a699fb00.validate],  # redblue
+      "a740d043": [task_a740d043.generate, task_a740d043.validate],  # zoomnoblue
+      "a78176bb": [task_a78176bb.generate, task_a78176bb.validate],  # stairways
+      "a79310a0": [task_a79310a0.generate, task_a79310a0.validate],  # redshift
+      "a85d4709": [task_a85d4709.generate, task_a85d4709.validate],  # stoplight
+      "a87f7484": [task_a87f7484.generate, task_a87f7484.validate],  # theweirdone
+      "a8c38be5": [task_a8c38be5.generate, task_a8c38be5.validate],  # ninebynine
+      "a8d7556c": [task_a8d7556c.generate, task_a8d7556c.validate],  # gapfiller
+      "a9f96cdd": [task_a9f96cdd.generate, task_a9f96cdd.validate],  # petalsonly
+      "aabf363d": [task_aabf363d.generate, task_aabf363d.validate],  # recolor
+      "aba27056": [task_aba27056.generate, task_aba27056.validate],  # fountain
+      "ac0a08a4": [task_ac0a08a4.generate, task_ac0a08a4.validate],  # enhance2
+      "ae3edfdc": [task_ae3edfdc.generate, task_ae3edfdc.validate],  # unexplode
+      "ae4f1146": [task_ae4f1146.generate, task_ae4f1146.validate],  # bluemax
+      "aedd82e4": [task_aedd82e4.generate, task_aedd82e4.validate],  # edgefree
+      "af902bf9": [task_af902bf9.generate, task_af902bf9.validate],  # magmacore
+      "b0c4d837": [task_b0c4d837.generate, task_b0c4d837.validate],  # halffull
+      "b190f7f5": [task_b190f7f5.generate, task_b190f7f5.validate],  # colorcopies
+      "b1948b0a": [task_b1948b0a.generate, task_b1948b0a.validate],  # redeye
+      "b230c067": [task_b230c067.generate, task_b230c067.validate],  # biggerisblue
+      "b27ca6d3": [task_b27ca6d3.generate, task_b27ca6d3.validate],  # olives
+      "b2862040": [task_b2862040.generate, task_b2862040.validate],  # openorclosed
+      "b527c5c6": [task_b527c5c6.generate, task_b527c5c6.validate],  # lasereyes
+      "b548a754": [task_b548a754.generate, task_b548a754.validate],  # envelop
+      "b60334d2": [task_b60334d2.generate, task_b60334d2.validate],  # lifesavers
+      "b6afb2da": [task_b6afb2da.generate, task_b6afb2da.validate],  # luxobox
+      "b7249182": [task_b7249182.generate, task_b7249182.validate],  # twotone2
+      "b775ac94": [task_b775ac94.generate, task_b775ac94.validate],  # missinglegs
+      "b782dc8a": [task_b782dc8a.generate, task_b782dc8a.validate],  # maizerouter
+      "b8825c91": [task_b8825c91.generate, task_b8825c91.validate],  # duocutout
+      "b8cdaf2b": [task_b8cdaf2b.generate, task_b8cdaf2b.validate],  # antenna
+      "b91ae062": [task_b91ae062.generate, task_b91ae062.validate],  # enhance3
+      "b94a9452": [task_b94a9452.generate, task_b94a9452.validate],  # zoominvert
+      "b9b7f026": [task_b9b7f026.generate, task_b9b7f026.validate],  # findthedonut
+      "ba26e723": [task_ba26e723.generate, task_ba26e723.validate],  # centipede
+      "ba97ae07": [task_ba97ae07.generate, task_ba97ae07.validate],  # sendtoback
+      "bb43febb": [task_bb43febb.generate, task_bb43febb.validate],  # jellyfilled
+      "bbc9ae5d": [task_bbc9ae5d.generate, task_bbc9ae5d.validate],  # stairs
+      "bc1d5164": [task_bc1d5164.generate, task_bc1d5164.validate],  # foldin
+      "bd4472b8": [task_bd4472b8.generate, task_bd4472b8.validate],  # xerox
+      "bda2d7a6": [task_bda2d7a6.generate, task_bda2d7a6.validate],  # crusher
+      "bdad9b1f": [task_bdad9b1f.generate, task_bdad9b1f.validate],  # crossroads
+      "be94b721": [task_be94b721.generate, task_be94b721.validate],  # biggestone
+      "beb8660c": [task_beb8660c.generate, task_beb8660c.validate],  # sorted
+      "c0f76784": [task_c0f76784.generate, task_c0f76784.validate],  # threesquares
+      "c1d99e64": [task_c1d99e64.generate, task_c1d99e64.validate],  # straightaway
+      "c3e719e8": [task_c3e719e8.generate, task_c3e719e8.validate],  # maxfractal
+      "c3f564a4": [task_c3f564a4.generate, task_c3f564a4.validate],  # holeystripes
+      "c444b776": [task_c444b776.generate, task_c444b776.validate],  # quadrantdust
+      "c59eb873": [task_c59eb873.generate, task_c59eb873.validate],  # enhance4
+      "c8cbb738": [task_c8cbb738.generate, task_c8cbb738.validate],  # brokenborder
+      "c8f0f002": [task_c8f0f002.generate, task_c8f0f002.validate],  # grayshift
+      "c909285e": [task_c909285e.generate, task_c909285e.validate],  # wafercut
+      "c9e6f938": [task_c9e6f938.generate, task_c9e6f938.validate],  # bitflip
+      "c9f8e694": [task_c9f8e694.generate, task_c9f8e694.validate],  # painters
+      "caa06a1f": [task_caa06a1f.generate, task_caa06a1f.validate],  # checkerboard
+      "cbded52d": [task_cbded52d.generate, task_cbded52d.validate],  # connectthree
+      "cce03e0d": [task_cce03e0d.generate, task_cce03e0d.validate],  # copyred
+      "cdecee7f": [task_cdecee7f.generate, task_cdecee7f.validate],  # permutation
+      "ce22a75a": [task_ce22a75a.generate, task_ce22a75a.validate],  # inflate
+      "ce4f8723": [task_ce4f8723.generate, task_ce4f8723.validate],  # greenmerge
+      "ce602527": [task_ce602527.generate, task_ce602527.validate],  # partialzoom
+      "ce9e57f2": [task_ce9e57f2.generate, task_ce9e57f2.validate],  # floordivide
+      "cf98881b": [task_cf98881b.generate, task_cf98881b.validate],  # layers3
+      "d037b0a7": [task_d037b0a7.generate, task_d037b0a7.validate],  # waterfall
+      "d06dbe63": [task_d06dbe63.generate, task_d06dbe63.validate],  # squiggle
+      "d07ae81c": [task_d07ae81c.generate, task_d07ae81c.validate],  # cutacross
+      "d0f5fe59": [task_d0f5fe59.generate, task_d0f5fe59.validate],  # countsprites
+      "d10ecb37": [task_d10ecb37.generate, task_d10ecb37.validate],  # topleft
+      "d13f3404": [task_d13f3404.generate, task_d13f3404.validate],  # crash
+      "d22278a0": [task_d22278a0.generate, task_d22278a0.validate],  # ripples
+      "d23f8c26": [task_d23f8c26.generate, task_d23f8c26.validate],  # middle
+      "d2abd087": [task_d2abd087.generate, task_d2abd087.validate],  # six
+      "d364b489": [task_d364b489.generate, task_d364b489.validate],  # pansies
+      "d406998b": [task_d406998b.generate, task_d406998b.validate],  # fireflies
+      "d43fd935": [task_d43fd935.generate, task_d43fd935.validate],  # greenmagnet
+      "d4469b4b": [task_d4469b4b.generate, task_d4469b4b.validate],  # rgbclassify
+      "d4a91cb9": [task_d4a91cb9.generate, task_d4a91cb9.validate],  # hpwl2
+      "d4f3cd78": [task_d4f3cd78.generate, task_d4f3cd78.validate],  # laminar
+      "d511f180": [task_d511f180.generate, task_d511f180.validate],  # grayblueswap
+      "d5d6de2d": [task_d5d6de2d.generate, task_d5d6de2d.validate],  # centersonly
+      "d631b094": [task_d631b094.generate, task_d631b094.validate],  # flat
+      "d687bc17": [task_d687bc17.generate, task_d687bc17.validate],  # colorclinger
+      "d6ad076f": [task_d6ad076f.generate, task_d6ad076f.validate],  # bridge
+      "d89b689b": [task_d89b689b.generate, task_d89b689b.validate],  # absorb
+      "d8c310e9": [task_d8c310e9.generate, task_d8c310e9.validate],  # cityskyline
+      "d90796e8": [task_d90796e8.generate, task_d90796e8.validate],  # drmario
+      "d9f24cd1": [task_d9f24cd1.generate, task_d9f24cd1.validate],  # bumpandrun
+      "d9fac9be": [task_d9fac9be.generate, task_d9fac9be.validate],  # centercell
+      "dae9d2b5": [task_dae9d2b5.generate, task_dae9d2b5.validate],  # mergenta
+      "db3e9e38": [task_db3e9e38.generate, task_db3e9e38.validate],  # pennant
+      "db93a21d": [task_db93a21d.generate, task_db93a21d.validate],  # deathstars
+      "dbc1a6ce": [task_dbc1a6ce.generate, task_dbc1a6ce.validate],  # connectdots
+      "dc0a314f": [task_dc0a314f.generate, task_dc0a314f.validate],  # greencutout
+      "dc1df850": [task_dc1df850.generate, task_dc1df850.validate],  # bluehalo
+      "dc433765": [task_dc433765.generate, task_dc433765.validate],  # creeper
+      "ddf7fa4f": [task_ddf7fa4f.generate, task_ddf7fa4f.validate],  # colorfill
+      "de1cd16c": [task_de1cd16c.generate, task_de1cd16c.validate],  # mostestcolor
+      "ded97339": [task_ded97339.generate, task_ded97339.validate],  # skyconnect
+      "e179c5f4": [task_e179c5f4.generate, task_e179c5f4.validate],  # skybounce
+      "e21d9049": [task_e21d9049.generate, task_e21d9049.validate],  # rainbowroads
+      "e26a3af2": [task_e26a3af2.generate, task_e26a3af2.validate],  # denoise
+      "e3497940": [task_e3497940.generate, task_e3497940.validate],  # foldandmerge
+      "e40b9e2f": [task_e40b9e2f.generate, task_e40b9e2f.validate],  # pinwheel3
+      "e48d4e1a": [task_e48d4e1a.generate, task_e48d4e1a.validate],  # diagonally
+      "e5062a87": [task_e5062a87.generate, task_e5062a87.validate],  # spritegaps
+      "e509e548": [task_e509e548.generate, task_e509e548.validate],  # elyouoraitch
+      "e50d258f": [task_e50d258f.generate, task_e50d258f.validate],  # themostreds
+      "e6721834": [task_e6721834.generate, task_e6721834.validate],  # compositing
+      "e73095fd": [task_e73095fd.generate, task_e73095fd.validate],  # squarenet
+      "e76a88a6": [task_e76a88a6.generate, task_e76a88a6.validate],  # copypaste3
+      "e8593010": [task_e8593010.generate, task_e8593010.validate],  # onetwothree
+      "e8dc4411": [task_e8dc4411.generate, task_e8dc4411.validate],  # continuation
+      "e9614598": [task_e9614598.generate, task_e9614598.validate],  # farmacia
+      "e98196ab": [task_e98196ab.generate, task_e98196ab.validate],  # blend
+      "e9afcf9a": [task_e9afcf9a.generate, task_e9afcf9a.validate],  # twist
+      "ea32f347": [task_ea32f347.generate, task_ea32f347.validate],  # threebears
+      "ea786f4a": [task_ea786f4a.generate, task_ea786f4a.validate],  # x
+      "eb281b96": [task_eb281b96.generate, task_eb281b96.validate],  # stretch
+      "eb5a1d5d": [task_eb5a1d5d.generate, task_eb5a1d5d.validate],  # matryoshka
+      "ec883f72": [task_ec883f72.generate, task_ec883f72.validate],  # antennaman
+      "ecdecbb3": [task_ecdecbb3.generate, task_ecdecbb3.validate],  # projection
+      "ed36ccf7": [task_ed36ccf7.generate, task_ed36ccf7.validate],  # rotate2
+      "ef135b50": [task_ef135b50.generate, task_ef135b50.validate],  # redcarpet
+      "f15e1fac": [task_f15e1fac.generate, task_f15e1fac.validate],  # shove
+      "f1cefba8": [task_f1cefba8.generate, task_f1cefba8.validate],  # rebar
+      "f25fbde4": [task_f25fbde4.generate, task_f25fbde4.validate],  # yellowsub
+      "f25ffba3": [task_f25ffba3.generate, task_f25ffba3.validate],  # vflip
+      "f2829549": [task_f2829549.generate, task_f2829549.validate],  # voids3
+      "f35d900a": [task_f35d900a.generate, task_f35d900a.validate],  # fourcorners
+      "f5b8619d": [task_f5b8619d.generate, task_f5b8619d.validate],  # tessellate
+      "f76d97a5": [task_f76d97a5.generate, task_f76d97a5.validate],  # invert
+      "f8a8fe49": [task_f8a8fe49.generate, task_f8a8fe49.validate],  # disassemble
+      "f8b3ba0a": [task_f8b3ba0a.generate, task_f8b3ba0a.validate],  # dashboard
+      "f8c80d96": [task_f8c80d96.generate, task_f8c80d96.validate],  # multimat
+      "f8ff0b80": [task_f8ff0b80.generate, task_f8ff0b80.validate],  # descending
+      "f9012d9b": [task_f9012d9b.generate, task_f9012d9b.validate],  # missingpiece
+      "fafffa47": [task_fafffa47.generate, task_fafffa47.validate],  # voids4
+      "fcb5c309": [task_fcb5c309.generate, task_fcb5c309.validate],  # containsmost
+      "fcc82909": [task_fcc82909.generate, task_fcc82909.validate],  # greenshadow
+      "feca6190": [task_feca6190.generate, task_feca6190.validate],  # soar
+      "ff28f65a": [task_ff28f65a.generate, task_ff28f65a.validate],  # numboxes
+      "ff805c23": [task_ff805c23.generate, task_ff805c23.validate],  # cutoutoscope
   }

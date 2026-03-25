@@ -17,7 +17,7 @@ $ git clone --recurse-submodules https://github.com/google/ARC-GEN.git && cd ARC
 For **benchmark generation**, use the `generate` command with two arguments: the task number, and the desired number of example pairs.
 
 ```
-$ python3 arc_gen.py generate 32 1000
+$ python3 arc_gen.py generate 1e0a9b12 1000
 [{'input': [[4, 0, 0, 0], [0, 0, 0, 0], [4, 0, 8, 0], [0, 3, 8, 0]], 'output': ...
 ```
 
@@ -32,7 +32,7 @@ A total of 0 generators failed.
 For an example of customized **variations**, refer to [arc_gen_variations.py](https://github.com/google/ARC-GEN/blob/main/arc_gen_variations.py), which produces two variations on [Task #125](https://arcprize.org/play?task=543a7ed5):
 
 ```
-  _, generator, _ = task_list.task_list().get(125)
+  generator, _ = task_list.task_list().get("543a7ed5")
   examples = []
   # Two examples of a "large" variation on Task #125.
   examples.extend([generator(boxes=8, size=28) for _ in range(2)])
