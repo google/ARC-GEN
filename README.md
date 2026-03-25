@@ -14,7 +14,7 @@ $ git clone --recurse-submodules https://github.com/google/ARC-GEN.git && cd ARC
 
 ## Usage
 
-For **benchmark generation**, use the `generate` command with two arguments: the task number, and the desired number of example pairs.
+For **benchmark generation**, use the `generate` command with two arguments: the task ID, and the desired number of example pairs.
 
 ```
 $ python3 arc_gen.py generate 1e0a9b12 1000
