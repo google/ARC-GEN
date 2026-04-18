@@ -8,10 +8,10 @@ For a more in-depth description of this work, see the [corresponding paper on ar
 
 ## News
 
- * `2026-04-04`: ARC-GEN to be used as the official benchmark generator in the [IJCAI-ECAI 2026 NeuroGolf Challenge](https://sites.google.com/view/neurogolf-2026/home).
+ * `2026-04-04`: ARC-GEN to be used as the official benchmark generator in the [2026 NeuroGolf Championship](https://www.kaggle.com/competitions/neurogolf-2026) featured at [IJCAI-ECAI 2026](https://2026.ijcai.org/).
  * `2026-03-25`: ARC-GEN now supports 500 additional tasks from [ARC-AGI-2](https://arcprize.org/arc-agi/2).
  * `2025-10-31`: An ARC-GEN overview is now available on [arxiv](https://arxiv.org/abs/2511.00162).
- * `2025-07-31`: ARC-GEN to be used as the official benchmark generator in the [2025 Google Code Golf Championship](https://www.kaggle.com/competitions/google-code-golf-2025).
+ * `2025-07-31`: ARC-GEN to be used as the official benchmark generator in the [2025 Google Code Golf Championship](https://www.kaggle.com/competitions/google-code-golf-2025) featured at [NeurIPS 2025](https://neurips.cc/Conferences/2025).
  * `2025-05-15`: The initial ARC-GEN repository committed to GitHub.
 
 ## Installation
